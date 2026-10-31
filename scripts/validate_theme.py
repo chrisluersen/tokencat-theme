@@ -1,4 +1,4 @@
-"""Validate the portable Hermesfox theme bundle."""
+"""Validate the portable Tokencat theme bundle."""
 
 from __future__ import annotations
 
@@ -98,7 +98,6 @@ JSON_FILES = (
     "vscode/tokencat.vscode-theme.json",
     "vscode/tokencat-color-customizations.json",
     "windows-terminal/tokencat.scheme.json",
-    "windows-terminal/hermesfox.scheme.json",
     "palette.json",
     "windows-terminal/scheme.json",
     "vscode/carbonfox.vscode-theme.json",
@@ -182,8 +181,6 @@ def check_palette_shape(data):
 REQUIRED_FILES = (
     "palette.json",
     "hermes/skins/carbonfox.yaml",
-    "hermes/skins/hermesfox.yaml",
-    "windows-terminal/hermesfox.scheme.json",
     "windows-terminal/scheme.json",
     "vscode/carbonfox.vscode-theme.json",
     "vscode/vscode-color-customizations.json",
@@ -201,41 +198,8 @@ REQUIRED_FILES = (
 )
 
 
-def _validate_hermesfox(root: Path, current: dict[str, Any]) -> list[str]:
+def _validate_vscode_manifest(root: Path) -> list[str]:
     violations = []
-    relative = "hermes/skins/hermesfox.yaml"
-    try:
-        fox = _parse_skin((root / relative).read_text(encoding="utf-8"), "hermesfox")
-        legacy = _parse_skin(
-            (root / "hermes/skins/carbonfox.yaml").read_text(encoding="utf-8"), "carbonfox"
-        )
-        if fox["colors"] != legacy["colors"]:
-            violations.append(f"{relative}: colors must match original Carbonfox")
-        if fox.get("branding") != {"agent_name": "Hermesfox"}:
-            violations.append(f"{relative}: title must be Hermesfox")
-        if fox.get("banner_hero") != current.get("banner_hero"):
-            violations.append(f"{relative}: hero must match Tokencat")
-        if fox.get("banner_logo") != " ":
-            violations.append(f"{relative}: banner_logo must be exactly one space")
-        if set(fox) != set(legacy):
-            violations.append(f"{relative}: fields must match original skin")
-    except (OSError, ValueError) as exc:
-        violations.append(f"{relative}: invalid skin or original reference ({exc})")
-
-    relative = "windows-terminal/hermesfox.scheme.json"
-    try:
-        fox = strict_json((root / relative).read_text(encoding="utf-8"))
-        legacy = strict_json((root / "windows-terminal/scheme.json").read_text(encoding="utf-8"))
-        if not isinstance(fox, dict) or not isinstance(legacy, dict):
-            raise ValueError("schemes must be objects")
-        if fox.pop("name", None) != "hermesfox":
-            violations.append(f"{relative}: scheme name must be hermesfox")
-        legacy.pop("name", None)
-        if fox != legacy:
-            violations.append(f"{relative}: colors must match original Carbonfox")
-    except (OSError, ValueError) as exc:
-        violations.append(f"{relative}: invalid scheme or original reference ({exc})")
-
     try:
         manifest = strict_json((root / "vscode/package.json").read_text(encoding="utf-8"))
         if not isinstance(manifest, dict) or not isinstance(manifest.get("contributes"), dict):
@@ -327,7 +291,7 @@ def validate_repository(root: Path) -> list[str]:
                 f"{path.relative_to(root)}: contains non-portable marker {match.group(0)}"
             )
     violations.extend(validate_exports(root))
-    violations.extend(_validate_hermesfox(root, skin))
+    violations.extend(_validate_vscode_manifest(root))
     return violations
 
 

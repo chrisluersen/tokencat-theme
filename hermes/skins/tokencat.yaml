@@ -67,7 +67,7 @@ branding:
   agent_name: "Hermes Agent"
 
 # Intentionally blank: a single space suppresses the built-in HERMES AGENT
-# fallback while keeping the Hermesfox logo artwork archived, not embedded.
+# fallback while keeping the archived logo artwork out of the banner.
 banner_logo: " "
 
 # banner_hero is a top-level skin key; it replaces the caduceus in CLI + TUI.

@@ -1,5 +1,18 @@
 # Changelog
 
+
+## 2026-10-31 — Hermesfox retired
+
+- **Removed the Hermesfox variant from every surface**, by owner decision. The Hermes skin,
+  its Windows Terminal scheme, both regression test files and the installed copy are gone;
+  the validator no longer requires or checks it. `scripts/validate_theme.py` keeps only the
+  VS Code manifest check from that function.
+- **Corrected a documentation overclaim found during the removal:** the README asserted
+  Hermesfox was *available* on Windows Terminal. It was not — the shipped scheme file was
+  never merged into the live settings, which carried only `Carbon Fox` and `tokencat`. The
+  claim is removed rather than preserved.
+- Carbonfox (Legacy) is untouched and remains the rollback path.
+
 ## Unreleased
 
 - **Collapsed the VS Code picker to Tokencat alone** (owner decision). The

@@ -27,8 +27,8 @@ class VSCodePackageTests(unittest.TestCase):
     def test_vscode_ships_one_canonical_theme(self):
         """Tokencat is the only VS Code theme; the legacy alias labels were removed.
 
-        Hermesfox and Carbonfox remain their own surfaces (Hermes skin, Windows
-        Terminal scheme); only the VS Code picker collapsed to one entry.
+        Carbonfox remains its own surface (Hermes skin, Windows Terminal
+        scheme); only the VS Code picker collapsed to one entry.
         """
         manifest = json.loads((ROOT / "vscode/package.json").read_text(encoding="utf-8"))
         labels = [item["label"] for item in manifest["contributes"]["themes"]]

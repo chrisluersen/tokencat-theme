@@ -178,7 +178,6 @@ def collect():
     for rel in (
         "windows-terminal/tokencat.scheme.json",
         "windows-terminal/scheme.json",
-        "windows-terminal/hermesfox.scheme.json",
     ):
         p = ROOT / rel
         if p.is_file():
@@ -196,7 +195,6 @@ def collect():
         for rel in (
             "hermes/skins/tokencat.yaml",
             "hermes/skins/carbonfox.yaml",
-            "hermes/skins/hermesfox.yaml",
             "hermes/dashboard-themes/tokencat.yaml",
         ):
             p = ROOT / rel
