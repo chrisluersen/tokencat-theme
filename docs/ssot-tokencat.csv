@@ -1,0 +1,1407 @@
+surface,file,category,key,value,base_token
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/accent,#2a2a2a,surface_selected
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/accentForeground,#f2f4f8,foreground
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/border,#525253,border
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/card,#282828,surface
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/cardForeground,#f2f4f8,foreground
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/destructive,#ee5396,red
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/destructiveForeground,#161616,background
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/input,#525253,border
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/muted,#282828,surface
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/mutedForeground,#97999b,muted_accessible
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/popover,#282828,surface
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/popoverForeground,#f2f4f8,foreground
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/primary,#78a9ff,blue
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/primaryForeground,#161616,background
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/ring,#78a9ff,blue
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/secondary,#282828,surface
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/secondaryForeground,#f2f4f8,foreground
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/success,#25be6a,green
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/colorOverrides/warning,#ff9e64,orange
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/palette/background/hex,#161616,background
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/palette/foreground/hex,#78a9ff,blue
+export contract,hermes/dashboard-themes/tokencat.yaml,pointer,/palette/midground/hex,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/comments,#97999b,muted_accessible
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/functions,#33b1ff,cyan
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/keywords,#be95ff,purple
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/numbers,#3ddbd9,cyan_bright
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/strings,#25be6a,green
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/types,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/editor.tokenColorCustomizations/variables,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/activityBar.background,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/activityBar.border,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/activityBar.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/activityBar.inactiveForeground,#97999b,muted_accessible
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/activityBarBadge.background,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/activityBarBadge.foreground,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/badge.background,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/badge.foreground,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/button.background,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/button.foreground,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/button.hoverBackground,#33b1ff,cyan
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/checkbox.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/checkbox.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/debugToolBar.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/descriptionForeground,#97999b,muted_accessible
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/diffEditor.insertedLineBackground,#182f23,diff_add_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/diffEditor.insertedTextBackground,#1a3525,diff_add_word_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/diffEditor.insertedTextBorder,#25be6a,green
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/diffEditor.removedLineBackground,#361f29,diff_remove_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/diffEditor.removedTextBackground,#462535,diff_remove_word_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/dropdown.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/dropdown.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.focusedStackFrameHighlightBackground,#78a9ff57,accent_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.inactiveSelectionBackground,#1f1f1f,line_highlight
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.lineHighlightBackground,#1f1f1f,line_highlight
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.selectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editor.stackFrameHighlightBackground,#3ddbd957,cyan_bright_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorCursor.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorError.background,#361f29,diff_remove_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorError.foreground,#ee5396,red
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorGroup.border,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorGroupHeader.border,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorGroupHeader.tabsBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorGroupHeader.tabsBorder,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorGutter.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorHint.background,#1c3433,hint_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorHint.foreground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorIndentGuide.activeBackground1,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorIndentGuide.background1,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorInfo.background,#252c39,info_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorInfo.foreground,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorLineNumber.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorLineNumber.foreground,#797a7e,line_number
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorMarkerNavigation.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorOverviewRuler.border,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.focusHighlightForeground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.highlightForeground,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.selectedBackground,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorSuggestWidget.selectedForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorWarning.background,#361f29,diff_remove_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorWarning.foreground,#ff9e64,orange
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorWhitespace.foreground,#484848,whitespace
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorWidget.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorWidget.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/editorWidget.shadow,#0000008C,shadow
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/errorForeground,#ee5396,red
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/focusBorder,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.addedResourceForeground,#25be6a,green
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.conflictingResourceForeground,#ff9e64,orange
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.deletedResourceForeground,#ee5396,red
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.ignoredResourceForeground,#6e6f70,disabled
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.modifiedResourceForeground,#08bdba,teal
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.submoduleResourceForeground,#08bdba,teal
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/gitDecoration.untrackedResourceForeground,#25be6a,green
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/input.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/input.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/input.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/input.placeholderForeground,#97999b,muted_accessible
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/inputValidation.errorBackground,#361f29,diff_remove_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/inputValidation.errorBorder,#ee5396,red
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/inputValidation.infoBackground,#252c39,info_bg
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/inputValidation.infoBorder,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.activeSelectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.activeSelectionForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.errorForeground,#ee5396,red
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.focusForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.focusOutline,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.highlightForeground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.hoverBackground,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.inactiveSelectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.inactiveSelectionForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/list.warningForeground,#ff9e64,orange
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/menu.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/menu.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/menu.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/menu.selectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/menu.selectionForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/minimap.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/minimapSlider.activeBackground,#3ddbd957,cyan_bright_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/minimapSlider.background,#2a2a2a8C,selection_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/minimapSlider.hoverBackground,#525253E3,border_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/notificationCenterHeader.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/notifications.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/notifications.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/notifications.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/panel.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/panel.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/panelTitle.activeBorder,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/panelTitle.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/panelTitle.inactiveForeground,#97999b,muted_accessible
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/peekView.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/peekViewEditor.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/peekViewResult.background,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/quickInput.background,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/quickInput.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/scrollbarSlider.activeBackground,#3ddbd957,cyan_bright_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/scrollbarSlider.background,#2a2a2a8C,selection_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/scrollbarSlider.hoverBackground,#525253E3,border_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/settings.headerForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/settings.modifiedItemIndicator,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/sideBar.background,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/sideBar.border,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/sideBar.foreground,#dfdfe0,foreground_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/sideBarSectionHeader.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/sideBarTitle.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/statusBar.background,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/statusBar.border,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/statusBar.foreground,#dfdfe0,foreground_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/statusBarItem.remoteBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.activeBackground,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.activeBorderTop,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.border,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.hoverBackground,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.inactiveBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.inactiveForeground,#97999b,muted_accessible
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/tab.unfocusedActiveBorderTop,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBlack,#282828,surface
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBlue,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightBlack,#484848,whitespace
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightBlue,#8cb6ff,ansi_brightBlue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightCyan,#52bdff,ansi_brightCyan
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightGreen,#46c880,ansi_brightGreen
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightMagenta,#c8a5ff,ansi_brightPurple
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightRed,#f16da6,ansi_brightRed
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightWhite,#e4e4e5,ansi_brightWhite
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiBrightYellow,#2dc7c4,ansi_brightYellow
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiCyan,#33b1ff,cyan
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiGreen,#25be6a,green
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiMagenta,#be95ff,purple
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiRed,#ee5396,red
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiWhite,#dfdfe0,foreground_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.ansiYellow,#08bdba,teal
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.background,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.border,#525253,border
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.findMatchBackground,#78a9ff57,accent_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminal.selectionBackground,#2a2a2a8C,selection_a
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/terminalCursor.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/textLink.activeForeground,#78a9ff,blue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/textLink.foreground,#8cb6ff,ansi_brightBlue
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/textPreformat.foreground,#25be6a,green
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/titleBar.activeBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/titleBar.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/titleBar.border,#161616,background
+export contract,vscode/tokencat-color-customizations.json,pointer,/workbench.colorCustomizations/widget.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/activityBar.background,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/activityBar.border,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/activityBar.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/activityBar.inactiveForeground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/activityBarBadge.background,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/activityBarBadge.foreground,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/badge.background,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/badge.foreground,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/button.background,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/button.foreground,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/button.hoverBackground,#33b1ff,cyan
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/checkbox.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/checkbox.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/debugToolBar.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/descriptionForeground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/diffEditor.insertedLineBackground,#182f23,diff_add_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/diffEditor.insertedTextBackground,#1a3525,diff_add_word_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/diffEditor.insertedTextBorder,#25be6a,green
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/diffEditor.removedLineBackground,#361f29,diff_remove_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/diffEditor.removedTextBackground,#462535,diff_remove_word_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/dropdown.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/dropdown.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.focusedStackFrameHighlightBackground,#78a9ff57,accent_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.inactiveSelectionBackground,#1f1f1f,line_highlight
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.lineHighlightBackground,#1f1f1f,line_highlight
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.selectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editor.stackFrameHighlightBackground,#3ddbd957,cyan_bright_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorCursor.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorError.background,#361f29,diff_remove_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorError.foreground,#ee5396,red
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorGroup.border,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorGroupHeader.border,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorGroupHeader.tabsBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorGroupHeader.tabsBorder,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorGutter.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorHint.background,#1c3433,hint_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorHint.foreground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorIndentGuide.activeBackground1,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorIndentGuide.background1,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorInfo.background,#252c39,info_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorInfo.foreground,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorLineNumber.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorLineNumber.foreground,#797a7e,line_number
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorMarkerNavigation.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorOverviewRuler.border,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.focusHighlightForeground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.highlightForeground,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.selectedBackground,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorSuggestWidget.selectedForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorWarning.background,#361f29,diff_remove_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorWarning.foreground,#ff9e64,orange
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorWhitespace.foreground,#484848,whitespace
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorWidget.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorWidget.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/editorWidget.shadow,#0000008C,shadow
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/errorForeground,#ee5396,red
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/focusBorder,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.addedResourceForeground,#25be6a,green
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.conflictingResourceForeground,#ff9e64,orange
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.deletedResourceForeground,#ee5396,red
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.ignoredResourceForeground,#6e6f70,disabled
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.modifiedResourceForeground,#08bdba,teal
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.submoduleResourceForeground,#08bdba,teal
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/gitDecoration.untrackedResourceForeground,#25be6a,green
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/input.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/input.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/input.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/input.placeholderForeground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/inputValidation.errorBackground,#361f29,diff_remove_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/inputValidation.errorBorder,#ee5396,red
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/inputValidation.infoBackground,#252c39,info_bg
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/inputValidation.infoBorder,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.activeSelectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.activeSelectionForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.errorForeground,#ee5396,red
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.focusForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.focusOutline,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.highlightForeground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.hoverBackground,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.inactiveSelectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.inactiveSelectionForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/list.warningForeground,#ff9e64,orange
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/menu.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/menu.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/menu.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/menu.selectionBackground,#2a2a2a,surface_selected
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/menu.selectionForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/minimap.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/minimapSlider.activeBackground,#3ddbd957,cyan_bright_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/minimapSlider.background,#2a2a2a8C,selection_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/minimapSlider.hoverBackground,#525253E3,border_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/notificationCenterHeader.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/notifications.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/notifications.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/notifications.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/panel.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/panel.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/panelTitle.activeBorder,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/panelTitle.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/panelTitle.inactiveForeground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/peekView.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/peekViewEditor.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/peekViewResult.background,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/quickInput.background,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/quickInput.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/scrollbarSlider.activeBackground,#3ddbd957,cyan_bright_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/scrollbarSlider.background,#2a2a2a8C,selection_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/scrollbarSlider.hoverBackground,#525253E3,border_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/settings.headerForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/settings.modifiedItemIndicator,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/sideBar.background,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/sideBar.border,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/sideBar.foreground,#dfdfe0,foreground_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/sideBarSectionHeader.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/sideBarTitle.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/statusBar.background,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/statusBar.border,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/statusBar.foreground,#dfdfe0,foreground_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/statusBarItem.remoteBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.activeBackground,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.activeBorderTop,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.border,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.hoverBackground,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.inactiveBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.inactiveForeground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/tab.unfocusedActiveBorderTop,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBlack,#282828,surface
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBlue,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightBlack,#484848,whitespace
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightBlue,#8cb6ff,ansi_brightBlue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightCyan,#52bdff,ansi_brightCyan
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightGreen,#46c880,ansi_brightGreen
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightMagenta,#c8a5ff,ansi_brightPurple
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightRed,#f16da6,ansi_brightRed
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightWhite,#e4e4e5,ansi_brightWhite
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiBrightYellow,#2dc7c4,ansi_brightYellow
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiCyan,#33b1ff,cyan
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiGreen,#25be6a,green
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiMagenta,#be95ff,purple
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiRed,#ee5396,red
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiWhite,#dfdfe0,foreground_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.ansiYellow,#08bdba,teal
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.background,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.findMatchBackground,#78a9ff57,accent_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminal.selectionBackground,#2a2a2a8C,selection_a
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/terminalCursor.foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/textLink.activeForeground,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/textLink.foreground,#8cb6ff,ansi_brightBlue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/textPreformat.foreground,#25be6a,green
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/titleBar.activeBackground,#0d0d0d,background_alt
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/titleBar.activeForeground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/titleBar.border,#161616,background
+export contract,vscode/tokencat.vscode-theme.json,pointer,/colors/widget.border,#525253,border
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/0/settings/foreground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/1/settings/foreground,#25be6a,green
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/10/settings/foreground,#f16da6,ansi_brightRed
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/11/settings/foreground,#f2f4f8,foreground
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/12/settings/foreground,#f16da6,ansi_brightRed
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/13/settings/foreground,#be95ff,purple
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/14/settings/foreground,#5ae0df,syntax_escape
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/15/settings/foreground,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/16/settings/foreground,#5ae0df,syntax_escape
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/17/settings/foreground,#5ae0df,syntax_escape
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/18/settings/foreground,#2dc7c4,ansi_brightYellow
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/19/settings/foreground,#52bdff,ansi_brightCyan
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/2/settings/foreground,#3ddbd9,cyan_bright
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/20/settings/foreground,#08bdba,teal
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/21/settings/foreground,#f16da6,ansi_brightRed
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/22/settings/foreground,#8cb6ff,ansi_brightBlue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/23/settings/foreground,#f16da6,ansi_brightRed
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/3/settings/foreground,#5ae0df,syntax_escape
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/4/settings/foreground,#be95ff,purple
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/5/settings/foreground,#ff91c1,syntax_import
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/6/settings/foreground,#8cb6ff,ansi_brightBlue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/7/settings/foreground,#97999b,muted_accessible
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/8/settings/foreground,#78a9ff,blue
+export contract,vscode/tokencat.vscode-theme.json,pointer,/tokenColors/9/settings/foreground,#33b1ff,cyan
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/0,#282828,surface
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/1,#ee5396,red
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/2,#25be6a,green
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/3,#08bdba,teal
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/4,#78a9ff,blue
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/5,#be95ff,purple
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/6,#33b1ff,cyan
+export contract,wezterm/tokencat.toml,pointer,/colors/ansi/7,#dfdfe0,foreground_alt
+export contract,wezterm/tokencat.toml,pointer,/colors/background,#161616,background
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/0,#484848,whitespace
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/1,#f16da6,ansi_brightRed
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/2,#46c880,ansi_brightGreen
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/3,#2dc7c4,ansi_brightYellow
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/4,#8cb6ff,ansi_brightBlue
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/5,#c8a5ff,ansi_brightPurple
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/6,#52bdff,ansi_brightCyan
+export contract,wezterm/tokencat.toml,pointer,/colors/brights/7,#e4e4e5,ansi_brightWhite
+export contract,wezterm/tokencat.toml,pointer,/colors/cursor_bg,#f2f4f8,foreground
+export contract,wezterm/tokencat.toml,pointer,/colors/cursor_border,#f2f4f8,foreground
+export contract,wezterm/tokencat.toml,pointer,/colors/cursor_fg,#161616,background
+export contract,wezterm/tokencat.toml,pointer,/colors/foreground,#f2f4f8,foreground
+export contract,wezterm/tokencat.toml,pointer,/colors/scrollbar_thumb,#525253,border
+export contract,wezterm/tokencat.toml,pointer,/colors/selection_bg,#2a2a2a,surface_selected
+export contract,wezterm/tokencat.toml,pointer,/colors/selection_fg,#f2f4f8,foreground
+export contract,wezterm/tokencat.toml,pointer,/colors/split,#525253,border
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/active_tab/bg_color,#78a9ff,blue
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/active_tab/fg_color,#161616,background
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/background,#0d0d0d,background_alt
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/inactive_tab/bg_color,#0d0d0d,background_alt
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/inactive_tab/fg_color,#97999b,muted_accessible
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/inactive_tab_hover/bg_color,#282828,surface
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/inactive_tab_hover/fg_color,#f2f4f8,foreground
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/new_tab/bg_color,#0d0d0d,background_alt
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/new_tab/fg_color,#dfdfe0,foreground_alt
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/new_tab_hover/bg_color,#2a2a2a,surface_selected
+export contract,wezterm/tokencat.toml,pointer,/colors/tab_bar/new_tab_hover/fg_color,#f2f4f8,foreground
+export contract,windows-terminal/tokencat.scheme.json,pointer,/background,#161616,background
+export contract,windows-terminal/tokencat.scheme.json,pointer,/black,#282828,surface
+export contract,windows-terminal/tokencat.scheme.json,pointer,/blue,#78a9ff,blue
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightBlack,#484848,whitespace
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightBlue,#8cb6ff,ansi_brightBlue
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightCyan,#52bdff,ansi_brightCyan
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightGreen,#46c880,ansi_brightGreen
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightPurple,#c8a5ff,ansi_brightPurple
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightRed,#f16da6,ansi_brightRed
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightWhite,#e4e4e5,ansi_brightWhite
+export contract,windows-terminal/tokencat.scheme.json,pointer,/brightYellow,#2dc7c4,ansi_brightYellow
+export contract,windows-terminal/tokencat.scheme.json,pointer,/cursorColor,#f2f4f8,foreground
+export contract,windows-terminal/tokencat.scheme.json,pointer,/cyan,#33b1ff,cyan
+export contract,windows-terminal/tokencat.scheme.json,pointer,/foreground,#f2f4f8,foreground
+export contract,windows-terminal/tokencat.scheme.json,pointer,/green,#25be6a,green
+export contract,windows-terminal/tokencat.scheme.json,pointer,/purple,#be95ff,purple
+export contract,windows-terminal/tokencat.scheme.json,pointer,/red,#ee5396,red
+export contract,windows-terminal/tokencat.scheme.json,pointer,/selectionBackground,#2a2a2a,surface_selected
+export contract,windows-terminal/tokencat.scheme.json,pointer,/white,#dfdfe0,foreground_alt
+export contract,windows-terminal/tokencat.scheme.json,pointer,/yellow,#08bdba,teal
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_error/background,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_error/base,#ee5396,red
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_error/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_error/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_error/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_error/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_success/background,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_success/base,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_success/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_success/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_success/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/exit_code_success/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_highlight/background,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_highlight/base,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_highlight/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_highlight/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_highlight/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_highlight/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_selected/background,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_selected/base,#78a9ff,blue
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_selected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_selected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_selected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/frame_selected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_selected/background,#2a2a2a,surface_selected
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_selected/base,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_selected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_selected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_selected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_selected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_unselected/background,#282828,surface
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_unselected/base,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_unselected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_unselected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_unselected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/list_unselected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_1,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_10,#33b1ff,cyan
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_2,#78a9ff,blue
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_3,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_4,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_5,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_6,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_7,#ee5396,red
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_8,#08bdba,teal
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/multiplayer_user_colors/player_9,#97999b,muted_accessible
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_selected/background,#78a9ff,blue
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_selected/base,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_selected/emphasis_0,#0d0d0d,background_alt
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_selected/emphasis_1,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_selected/emphasis_2,#0d0d0d,background_alt
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_selected/emphasis_3,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_unselected/background,#282828,surface
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_unselected/base,#dfdfe0,foreground_alt
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_unselected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_unselected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_unselected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/ribbon_unselected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_selected/background,#2a2a2a,surface_selected
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_selected/base,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_selected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_selected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_selected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_selected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_unselected/background,#282828,surface
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_unselected/base,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_unselected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_unselected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_unselected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_cell_unselected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_title/background,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_title/base,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_title/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_title/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_title/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/table_title/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_selected/background,#2a2a2a,surface_selected
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_selected/base,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_selected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_selected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_selected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_selected/emphasis_3,#be95ff,purple
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_unselected/background,#161616,background
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_unselected/base,#f2f4f8,foreground
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_unselected/emphasis_0,#ff9e64,orange
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_unselected/emphasis_1,#3ddbd9,cyan_bright
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_unselected/emphasis_2,#25be6a,green
+export contract,zellij/tokencat.kdl,pointer,/themes/tokencat/text_unselected/emphasis_3,#be95ff,purple
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.accent,#2a2a2a,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.accentForeground,#f2f4f8,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.border,#525253,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.card,#282828,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.cardForeground,#f2f4f8,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.destructive,#ee5396,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.destructiveForeground,#161616,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.input,#525253,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.muted,#282828,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.mutedForeground,#97999b,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.popover,#282828,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.popoverForeground,#f2f4f8,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.primary,#78a9ff,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.primaryForeground,#161616,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.ring,#78a9ff,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.secondary,#282828,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.secondaryForeground,#f2f4f8,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.success,#25be6a,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,colorOverrides,colorOverrides.warning,#ff9e64,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,palette,palette.background.hex,#161616,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,palette,palette.foreground.hex,#78a9ff,
+hermes-dashboard,hermes/dashboard-themes/tokencat.yaml,palette,palette.midground.hex,#f2f4f8,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.background,#161616,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.banner_accent,#78a9ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.banner_border,#78a9ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.banner_dim,#7f8489,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.banner_text,#f2f4f8,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.banner_title,#f2f4f8,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.completion_menu_bg,#2a2a2a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.completion_menu_current_bg,#525253,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.completion_menu_meta_bg,#2a2a2a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.completion_menu_meta_current_bg,#525253,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.diff_added,#182f23,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.diff_added_word,#25be6a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.diff_removed,#361f29,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.diff_removed_word,#ee5396,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.input_rule,#525253,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.prompt,#78a9ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.response_border,#78a9ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.selection_bg,#2a2a2a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.session_border,#7f8489,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.session_label,#78a9ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.shell_dollar,#25be6a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_bad,#ee5396,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_bg,#0d0d0d,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_critical,#ff5f5f,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_dim,#7f8489,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_good,#25be6a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_strong,#f2f4f8,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_text,#dfdfe0,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.status_bar_warn,#ff9e64,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.syntax_comment,#7f8489,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.syntax_keyword,#be95ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.syntax_number,#3ddbd9,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.syntax_string,#25be6a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_accent,#78a9ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_error,#ee5396,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_label,#33b1ff,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_ok,#25be6a,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_thinking,#8c6fb9,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_tool,#3ddbd9,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.ui_warn,#ff9e64,
+hermes-skin,hermes/skins/carbonfox.yaml,colors,colors.voice_status_bg,#0d0d0d,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.background,#161616,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.banner_accent,#78a9ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.banner_border,#78a9ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.banner_dim,#7f8489,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.banner_text,#f2f4f8,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.banner_title,#f2f4f8,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.completion_menu_bg,#2a2a2a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.completion_menu_current_bg,#525253,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.completion_menu_meta_bg,#2a2a2a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.completion_menu_meta_current_bg,#525253,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.diff_added,#182f23,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.diff_added_word,#25be6a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.diff_removed,#361f29,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.diff_removed_word,#ee5396,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.input_rule,#525253,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.prompt,#78a9ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.response_border,#78a9ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.selection_bg,#2a2a2a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.session_border,#7f8489,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.session_label,#78a9ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.shell_dollar,#25be6a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_bad,#ee5396,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_bg,#0d0d0d,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_critical,#ff5f5f,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_dim,#7f8489,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_good,#25be6a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_strong,#f2f4f8,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_text,#dfdfe0,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.status_bar_warn,#ff9e64,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.syntax_comment,#7f8489,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.syntax_keyword,#be95ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.syntax_number,#3ddbd9,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.syntax_string,#25be6a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_accent,#78a9ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_error,#ee5396,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_label,#33b1ff,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_ok,#25be6a,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_thinking,#8c6fb9,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_tool,#3ddbd9,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.ui_warn,#ff9e64,
+hermes-skin,hermes/skins/hermesfox.yaml,colors,colors.voice_status_bg,#0d0d0d,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.background,#161616,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.banner_accent,#78a9ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.banner_border,#78a9ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.banner_dim,#97999b,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.banner_text,#f2f4f8,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.banner_title,#f2f4f8,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.completion_menu_bg,#2a2a2a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.completion_menu_current_bg,#525253,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.completion_menu_meta_bg,#2a2a2a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.completion_menu_meta_current_bg,#2a2a2a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.diff_added,#182f23,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.diff_added_word,#25be6a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.diff_removed,#361f29,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.diff_removed_word,#ee5396,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.input_rule,#525253,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.prompt,#78a9ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.response_border,#78a9ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.selection_bg,#2a2a2a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.session_border,#97999b,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.session_label,#78a9ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.shell_dollar,#25be6a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_bad,#ee5396,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_bg,#0d0d0d,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_critical,#ff5f5f,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_dim,#97999b,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_good,#25be6a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_strong,#f2f4f8,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_text,#dfdfe0,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.status_bar_warn,#ff9e64,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.syntax_comment,#97999b,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.syntax_keyword,#be95ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.syntax_number,#3ddbd9,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.syntax_string,#25be6a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_accent,#78a9ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_border,#525253,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_error,#ee5396,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_label,#33b1ff,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_ok,#25be6a,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_primary,#f2f4f8,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_text,#f2f4f8,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_thinking,#a184d0,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_tool,#3ddbd9,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.ui_warn,#ff9e64,
+hermes-skin,hermes/skins/tokencat.yaml,colors,colors.voice_status_bg,#0d0d0d,
+palette (SSOT),palettes/tokencat.json,base,base.accent_a,#78a9ff57,accent_a
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightBlue,#8cb6ff,ansi_brightBlue
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightCyan,#52bdff,ansi_brightCyan
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightGreen,#46c880,ansi_brightGreen
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightPurple,#c8a5ff,ansi_brightPurple
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightRed,#f16da6,ansi_brightRed
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightWhite,#e4e4e5,ansi_brightWhite
+palette (SSOT),palettes/tokencat.json,base,base.ansi_brightYellow,#2dc7c4,ansi_brightYellow
+palette (SSOT),palettes/tokencat.json,base,base.background,#161616,background
+palette (SSOT),palettes/tokencat.json,base,base.background_alt,#0d0d0d,background_alt
+palette (SSOT),palettes/tokencat.json,base,base.blue,#78a9ff,blue
+palette (SSOT),palettes/tokencat.json,base,base.border,#525253,border
+palette (SSOT),palettes/tokencat.json,base,base.border_a,#525253E3,border_a
+palette (SSOT),palettes/tokencat.json,base,base.critical,#ff5f5f,critical
+palette (SSOT),palettes/tokencat.json,base,base.cyan,#33b1ff,cyan
+palette (SSOT),palettes/tokencat.json,base,base.cyan_bright,#3ddbd9,cyan_bright
+palette (SSOT),palettes/tokencat.json,base,base.cyan_bright_a,#3ddbd957,cyan_bright_a
+palette (SSOT),palettes/tokencat.json,base,base.diff_add_bg,#182f23,diff_add_bg
+palette (SSOT),palettes/tokencat.json,base,base.diff_add_word_bg,#1a3525,diff_add_word_bg
+palette (SSOT),palettes/tokencat.json,base,base.diff_remove_bg,#361f29,diff_remove_bg
+palette (SSOT),palettes/tokencat.json,base,base.diff_remove_word_bg,#462535,diff_remove_word_bg
+palette (SSOT),palettes/tokencat.json,base,base.disabled,#6e6f70,disabled
+palette (SSOT),palettes/tokencat.json,base,base.foreground,#f2f4f8,foreground
+palette (SSOT),palettes/tokencat.json,base,base.foreground_alt,#dfdfe0,foreground_alt
+palette (SSOT),palettes/tokencat.json,base,base.green,#25be6a,green
+palette (SSOT),palettes/tokencat.json,base,base.green_a,#25be6a8C,green_a
+palette (SSOT),palettes/tokencat.json,base,base.hint_bg,#1c3433,hint_bg
+palette (SSOT),palettes/tokencat.json,base,base.indent_guide,#3b3b3b,indent_guide
+palette (SSOT),palettes/tokencat.json,base,base.info_bg,#252c39,info_bg
+palette (SSOT),palettes/tokencat.json,base,base.line_highlight,#1f1f1f,line_highlight
+palette (SSOT),palettes/tokencat.json,base,base.line_number,#797a7e,line_number
+palette (SSOT),palettes/tokencat.json,base,base.muted,#7f8489,muted
+palette (SSOT),palettes/tokencat.json,base,base.muted_accessible,#97999b,muted_accessible
+palette (SSOT),palettes/tokencat.json,base,base.orange,#ff9e64,orange
+palette (SSOT),palettes/tokencat.json,base,base.purple,#be95ff,purple
+palette (SSOT),palettes/tokencat.json,base,base.red,#ee5396,red
+palette (SSOT),palettes/tokencat.json,base,base.selection_a,#2a2a2a8C,selection_a
+palette (SSOT),palettes/tokencat.json,base,base.shadow,#0000008C,shadow
+palette (SSOT),palettes/tokencat.json,base,base.surface,#282828,surface
+palette (SSOT),palettes/tokencat.json,base,base.surface_selected,#2a2a2a,surface_selected
+palette (SSOT),palettes/tokencat.json,base,base.syntax_escape,#5ae0df,syntax_escape
+palette (SSOT),palettes/tokencat.json,base,base.syntax_import,#ff91c1,syntax_import
+palette (SSOT),palettes/tokencat.json,base,base.teal,#08bdba,teal
+palette (SSOT),palettes/tokencat.json,base,base.thinking,#8c6fb9,thinking
+palette (SSOT),palettes/tokencat.json,base,base.thinking_accessible,#a184d0,thinking_accessible
+palette (SSOT),palettes/tokencat.json,base,base.whitespace,#484848,whitespace
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.background,#161616,background
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.banner_accent,#78a9ff,blue
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.banner_border,#78a9ff,blue
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.banner_dim,#97999b,muted_accessible
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.banner_text,#f2f4f8,foreground
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.banner_title,#f2f4f8,foreground
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.completion_menu_bg,#2a2a2a,surface_selected
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.completion_menu_current_bg,#525253,border
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.completion_menu_meta_bg,#2a2a2a,surface_selected
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.completion_menu_meta_current_bg,#2a2a2a,surface_selected
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.diff_added,#182f23,diff_add_bg
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.diff_added_word,#25be6a,green
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.diff_removed,#361f29,diff_remove_bg
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.diff_removed_word,#ee5396,red
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.input_rule,#525253,border
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.prompt,#78a9ff,blue
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.response_border,#78a9ff,blue
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.selection_bg,#2a2a2a,surface_selected
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.session_border,#97999b,muted_accessible
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.session_label,#78a9ff,blue
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.shell_dollar,#25be6a,green
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_bad,#ee5396,red
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_bg,#0d0d0d,background_alt
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_critical,#ff5f5f,critical
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_dim,#97999b,muted_accessible
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_good,#25be6a,green
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_strong,#f2f4f8,foreground
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_text,#dfdfe0,foreground_alt
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.status_bar_warn,#ff9e64,orange
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.syntax_comment,#97999b,muted_accessible
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.syntax_keyword,#be95ff,purple
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.syntax_number,#3ddbd9,cyan_bright
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.syntax_string,#25be6a,green
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_accent,#78a9ff,blue
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_border,#525253,border
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_error,#ee5396,red
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_label,#33b1ff,cyan
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_ok,#25be6a,green
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_primary,#f2f4f8,foreground
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_text,#f2f4f8,foreground
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_thinking,#a184d0,thinking_accessible
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_tool,#3ddbd9,cyan_bright
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.ui_warn,#ff9e64,orange
+palette (SSOT) > hermes,palettes/tokencat.json,mapping,mappings.hermes.voice_status_bg,#0d0d0d,background_alt
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.activityBar.background,#0d0d0d,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.activityBar.foreground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.activityBarBadge.background,#78a9ff,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.activityBarBadge.foreground,#161616,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.diffEditor.insertedLineBackground,#16161600,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.diffEditor.insertedTextBackground,#16161600,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.diffEditor.removedLineBackground,#16161600,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.diffEditor.removedTextBackground,#16161600,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editor.background,#161616,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editor.foreground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editor.lineHighlightBackground,#1f1f1f,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editor.selectionBackground,#2a2a2a,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorCursor.foreground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorGroupHeader.tabsBackground,#0d0d0d,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorGroupHeader.tabsBorder,#282828,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorIndentGuide.activeBackground1,#525253,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorIndentGuide.background1,#282828,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorLineNumber.activeForeground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorLineNumber.foreground,#797a7e,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorSuggestWidget.background,#282828,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorSuggestWidget.foreground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorSuggestWidget.highlightForeground,#78a9ff,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorSuggestWidget.selectedBackground,#525253,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorWidget.background,#282828,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.editorWidget.border,#525253,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.gitDecoration.addedResourceForeground,#25be6a,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.gitDecoration.deletedResourceForeground,#ee5396,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.gitDecoration.modifiedResourceForeground,#08bdba,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.panel.background,#161616,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.panel.border,#525253,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.sideBar.background,#0d0d0d,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.sideBar.foreground,#dfdfe0,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.sideBarSectionHeader.background,#161616,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.statusBar.background,#0d0d0d,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.statusBar.foreground,#dfdfe0,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.tab.activeBackground,#161616,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.tab.activeForeground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.tab.inactiveBackground,#0d0d0d,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.tab.inactiveForeground,#97999b,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.ansiBlue,#78a9ff,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.ansiCyan,#33b1ff,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.ansiGreen,#25be6a,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.ansiMagenta,#be95ff,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.ansiRed,#ee5396,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.ansiYellow,#08bdba,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.background,#161616,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminal.foreground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.terminalCursor.foreground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.titleBar.activeBackground,#0d0d0d,
+vscode,vscode/carbonfox.vscode-theme.json,colors,colors.titleBar.activeForeground,#f2f4f8,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.0.settings.foreground,#97999b,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.1.settings.foreground,#25be6a,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.2.settings.foreground,#3ddbd9,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.3.settings.foreground,#be95ff,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.4.settings.foreground,#78a9ff,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.5.settings.foreground,#33b1ff,
+vscode,vscode/carbonfox.vscode-theme.json,tokenColors,tokenColors.6.settings.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.activityBar.background,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.activityBar.border,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.activityBar.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.activityBar.inactiveForeground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.activityBarBadge.background,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.activityBarBadge.foreground,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.badge.background,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.badge.foreground,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.button.background,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.button.foreground,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.button.hoverBackground,#33b1ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.checkbox.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.checkbox.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.debugToolBar.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.descriptionForeground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.diffEditor.insertedLineBackground,#182f23,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.diffEditor.insertedTextBackground,#1a3525,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.diffEditor.insertedTextBorder,#25be6a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.diffEditor.removedLineBackground,#361f29,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.diffEditor.removedTextBackground,#462535,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.dropdown.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.dropdown.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.focusedStackFrameHighlightBackground,#78a9ff57,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.inactiveSelectionBackground,#1f1f1f,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.lineHighlightBackground,#1f1f1f,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.selectionBackground,#2a2a2a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editor.stackFrameHighlightBackground,#3ddbd957,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorCursor.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorError.background,#361f29,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorError.foreground,#ee5396,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorGroup.border,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorGroupHeader.border,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorGroupHeader.tabsBackground,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorGroupHeader.tabsBorder,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorGutter.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorHint.background,#1c3433,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorHint.foreground,#3ddbd9,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorIndentGuide.activeBackground1,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorIndentGuide.background1,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorInfo.background,#252c39,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorInfo.foreground,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorLineNumber.activeForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorLineNumber.foreground,#797a7e,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorMarkerNavigation.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorOverviewRuler.border,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.focusHighlightForeground,#3ddbd9,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.highlightForeground,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.selectedBackground,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorSuggestWidget.selectedForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorWarning.background,#361f29,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorWarning.foreground,#ff9e64,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorWhitespace.foreground,#484848,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorWidget.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorWidget.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.editorWidget.shadow,#0000008C,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.errorForeground,#ee5396,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.focusBorder,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.addedResourceForeground,#25be6a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.conflictingResourceForeground,#ff9e64,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.deletedResourceForeground,#ee5396,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.ignoredResourceForeground,#6e6f70,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.modifiedResourceForeground,#08bdba,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.submoduleResourceForeground,#08bdba,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.gitDecoration.untrackedResourceForeground,#25be6a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.input.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.input.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.input.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.input.placeholderForeground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.inputValidation.errorBackground,#361f29,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.inputValidation.errorBorder,#ee5396,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.inputValidation.infoBackground,#252c39,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.inputValidation.infoBorder,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.activeSelectionBackground,#2a2a2a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.activeSelectionForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.errorForeground,#ee5396,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.focusForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.focusOutline,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.highlightForeground,#3ddbd9,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.hoverBackground,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.inactiveSelectionBackground,#2a2a2a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.inactiveSelectionForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.list.warningForeground,#ff9e64,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.menu.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.menu.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.menu.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.menu.selectionBackground,#2a2a2a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.menu.selectionForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.minimap.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.minimapSlider.activeBackground,#3ddbd957,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.minimapSlider.background,#2a2a2a8C,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.minimapSlider.hoverBackground,#525253E3,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.notificationCenterHeader.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.notifications.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.notifications.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.notifications.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.panel.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.panel.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.panelTitle.activeBorder,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.panelTitle.activeForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.panelTitle.inactiveForeground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.peekView.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.peekViewEditor.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.peekViewResult.background,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.quickInput.background,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.quickInput.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.scrollbarSlider.activeBackground,#3ddbd957,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.scrollbarSlider.background,#2a2a2a8C,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.scrollbarSlider.hoverBackground,#525253E3,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.settings.headerForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.settings.modifiedItemIndicator,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.sideBar.background,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.sideBar.border,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.sideBar.foreground,#dfdfe0,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.sideBarSectionHeader.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.sideBarTitle.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.statusBar.background,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.statusBar.border,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.statusBar.foreground,#dfdfe0,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.statusBarItem.remoteBackground,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.activeBackground,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.activeBorderTop,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.activeForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.border,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.hoverBackground,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.inactiveBackground,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.inactiveForeground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.tab.unfocusedActiveBorderTop,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBlack,#282828,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBlue,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightBlack,#484848,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightBlue,#8cb6ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightCyan,#52bdff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightGreen,#46c880,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightMagenta,#c8a5ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightRed,#f16da6,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightWhite,#e4e4e5,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiBrightYellow,#2dc7c4,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiCyan,#33b1ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiGreen,#25be6a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiMagenta,#be95ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiRed,#ee5396,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiWhite,#dfdfe0,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.ansiYellow,#08bdba,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.background,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.findMatchBackground,#78a9ff57,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminal.selectionBackground,#2a2a2a8C,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.terminalCursor.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.textLink.activeForeground,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.textLink.foreground,#8cb6ff,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.textPreformat.foreground,#25be6a,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.titleBar.activeBackground,#0d0d0d,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.titleBar.activeForeground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.titleBar.border,#161616,
+vscode,vscode/tokencat.vscode-theme.json,colors,colors.widget.border,#525253,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.0.settings.foreground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.1.settings.foreground,#25be6a,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.10.settings.foreground,#f16da6,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.11.settings.foreground,#f2f4f8,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.12.settings.foreground,#f16da6,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.13.settings.foreground,#be95ff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.14.settings.foreground,#5ae0df,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.15.settings.foreground,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.16.settings.foreground,#5ae0df,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.17.settings.foreground,#5ae0df,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.18.settings.foreground,#2dc7c4,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.19.settings.foreground,#52bdff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.2.settings.foreground,#3ddbd9,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.20.settings.foreground,#08bdba,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.21.settings.foreground,#f16da6,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.22.settings.foreground,#8cb6ff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.23.settings.foreground,#f16da6,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.3.settings.foreground,#5ae0df,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.4.settings.foreground,#be95ff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.5.settings.foreground,#ff91c1,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.6.settings.foreground,#8cb6ff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.7.settings.foreground,#97999b,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.8.settings.foreground,#78a9ff,
+vscode,vscode/tokencat.vscode-theme.json,tokenColors,tokenColors.9.settings.foreground,#33b1ff,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.0,#282828,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.1,#ee5396,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.2,#25be6a,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.3,#08bdba,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.4,#78a9ff,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.5,#be95ff,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.6,#33b1ff,
+wezterm,wezterm/tokencat.toml,colors,colors.ansi.7,#dfdfe0,
+wezterm,wezterm/tokencat.toml,colors,colors.background,#161616,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.0,#484848,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.1,#f16da6,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.2,#46c880,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.3,#2dc7c4,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.4,#8cb6ff,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.5,#c8a5ff,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.6,#52bdff,
+wezterm,wezterm/tokencat.toml,colors,colors.brights.7,#e4e4e5,
+wezterm,wezterm/tokencat.toml,colors,colors.cursor_bg,#f2f4f8,
+wezterm,wezterm/tokencat.toml,colors,colors.cursor_border,#f2f4f8,
+wezterm,wezterm/tokencat.toml,colors,colors.cursor_fg,#161616,
+wezterm,wezterm/tokencat.toml,colors,colors.foreground,#f2f4f8,
+wezterm,wezterm/tokencat.toml,colors,colors.scrollbar_thumb,#525253,
+wezterm,wezterm/tokencat.toml,colors,colors.selection_bg,#2a2a2a,
+wezterm,wezterm/tokencat.toml,colors,colors.selection_fg,#f2f4f8,
+wezterm,wezterm/tokencat.toml,colors,colors.split,#525253,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.active_tab.bg_color,#78a9ff,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.active_tab.fg_color,#161616,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.background,#0d0d0d,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.inactive_tab.bg_color,#0d0d0d,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.inactive_tab.fg_color,#97999b,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.inactive_tab_hover.bg_color,#282828,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.inactive_tab_hover.fg_color,#f2f4f8,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.new_tab.bg_color,#0d0d0d,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.new_tab.fg_color,#dfdfe0,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.new_tab_hover.bg_color,#2a2a2a,
+wezterm,wezterm/tokencat.toml,colors,colors.tab_bar.new_tab_hover.fg_color,#f2f4f8,
+windows-terminal,windows-terminal/hermesfox.scheme.json,background,background,#161616,
+windows-terminal,windows-terminal/hermesfox.scheme.json,black,black,#282828,
+windows-terminal,windows-terminal/hermesfox.scheme.json,blue,blue,#78a9ff,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightBlack,brightBlack,#484848,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightBlue,brightBlue,#8cb6ff,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightCyan,brightCyan,#52bdff,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightGreen,brightGreen,#46c880,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightPurple,brightPurple,#c8a5ff,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightRed,brightRed,#f16da6,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightWhite,brightWhite,#e4e4e5,
+windows-terminal,windows-terminal/hermesfox.scheme.json,brightYellow,brightYellow,#2dc7c4,
+windows-terminal,windows-terminal/hermesfox.scheme.json,cursorColor,cursorColor,#f2f4f8,
+windows-terminal,windows-terminal/hermesfox.scheme.json,cyan,cyan,#33b1ff,
+windows-terminal,windows-terminal/hermesfox.scheme.json,foreground,foreground,#f2f4f8,
+windows-terminal,windows-terminal/hermesfox.scheme.json,green,green,#25be6a,
+windows-terminal,windows-terminal/hermesfox.scheme.json,purple,purple,#be95ff,
+windows-terminal,windows-terminal/hermesfox.scheme.json,red,red,#ee5396,
+windows-terminal,windows-terminal/hermesfox.scheme.json,selectionBackground,selectionBackground,#2a2a2a,
+windows-terminal,windows-terminal/hermesfox.scheme.json,white,white,#dfdfe0,
+windows-terminal,windows-terminal/hermesfox.scheme.json,yellow,yellow,#08bdba,
+windows-terminal,windows-terminal/scheme.json,background,background,#161616,
+windows-terminal,windows-terminal/scheme.json,black,black,#282828,
+windows-terminal,windows-terminal/scheme.json,blue,blue,#78a9ff,
+windows-terminal,windows-terminal/scheme.json,brightBlack,brightBlack,#484848,
+windows-terminal,windows-terminal/scheme.json,brightBlue,brightBlue,#8cb6ff,
+windows-terminal,windows-terminal/scheme.json,brightCyan,brightCyan,#52bdff,
+windows-terminal,windows-terminal/scheme.json,brightGreen,brightGreen,#46c880,
+windows-terminal,windows-terminal/scheme.json,brightPurple,brightPurple,#c8a5ff,
+windows-terminal,windows-terminal/scheme.json,brightRed,brightRed,#f16da6,
+windows-terminal,windows-terminal/scheme.json,brightWhite,brightWhite,#e4e4e5,
+windows-terminal,windows-terminal/scheme.json,brightYellow,brightYellow,#2dc7c4,
+windows-terminal,windows-terminal/scheme.json,cursorColor,cursorColor,#f2f4f8,
+windows-terminal,windows-terminal/scheme.json,cyan,cyan,#33b1ff,
+windows-terminal,windows-terminal/scheme.json,foreground,foreground,#f2f4f8,
+windows-terminal,windows-terminal/scheme.json,green,green,#25be6a,
+windows-terminal,windows-terminal/scheme.json,purple,purple,#be95ff,
+windows-terminal,windows-terminal/scheme.json,red,red,#ee5396,
+windows-terminal,windows-terminal/scheme.json,selectionBackground,selectionBackground,#2a2a2a,
+windows-terminal,windows-terminal/scheme.json,white,white,#dfdfe0,
+windows-terminal,windows-terminal/scheme.json,yellow,yellow,#08bdba,
+windows-terminal,windows-terminal/tokencat.scheme.json,background,background,#161616,
+windows-terminal,windows-terminal/tokencat.scheme.json,black,black,#282828,
+windows-terminal,windows-terminal/tokencat.scheme.json,blue,blue,#78a9ff,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightBlack,brightBlack,#484848,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightBlue,brightBlue,#8cb6ff,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightCyan,brightCyan,#52bdff,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightGreen,brightGreen,#46c880,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightPurple,brightPurple,#c8a5ff,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightRed,brightRed,#f16da6,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightWhite,brightWhite,#e4e4e5,
+windows-terminal,windows-terminal/tokencat.scheme.json,brightYellow,brightYellow,#2dc7c4,
+windows-terminal,windows-terminal/tokencat.scheme.json,cursorColor,cursorColor,#f2f4f8,
+windows-terminal,windows-terminal/tokencat.scheme.json,cyan,cyan,#33b1ff,
+windows-terminal,windows-terminal/tokencat.scheme.json,foreground,foreground,#f2f4f8,
+windows-terminal,windows-terminal/tokencat.scheme.json,green,green,#25be6a,
+windows-terminal,windows-terminal/tokencat.scheme.json,purple,purple,#be95ff,
+windows-terminal,windows-terminal/tokencat.scheme.json,red,red,#ee5396,
+windows-terminal,windows-terminal/tokencat.scheme.json,selectionBackground,selectionBackground,#2a2a2a,
+windows-terminal,windows-terminal/tokencat.scheme.json,white,white,#dfdfe0,
+windows-terminal,windows-terminal/tokencat.scheme.json,yellow,yellow,#08bdba,
+zed,zed/tokencat.json,accents,accents.0,#78a9ff57,
+zed,zed/tokencat.json,accents,accents.1,#33b1ff57,
+zed,zed/tokencat.json,accents,accents.2,#be95ff57,
+zed,zed/tokencat.json,accents,accents.3,#25be6a57,
+zed,zed/tokencat.json,accents,accents.4,#3ddbd957,
+zed,zed/tokencat.json,accents,accents.5,#ee539657,
+zed,zed/tokencat.json,accents,accents.6,#ff9e6457,
+zed,zed/tokencat.json,background,background,#161616,
+zed,zed/tokencat.json,border,border,#525253,
+zed,zed/tokencat.json,border.disabled,border.disabled,#161616,
+zed,zed/tokencat.json,border.focused,border.focused,#78a9ff,
+zed,zed/tokencat.json,border.selected,border.selected,#525253,
+zed,zed/tokencat.json,border.transparent,border.transparent,#16161600,
+zed,zed/tokencat.json,border.variant,border.variant,#282828,
+zed,zed/tokencat.json,conflict,conflict,#ff9e64,
+zed,zed/tokencat.json,created,created,#25be6a,
+zed,zed/tokencat.json,debugger.accent,debugger.accent,#3ddbd9,
+zed,zed/tokencat.json,deleted,deleted,#ee5396,
+zed,zed/tokencat.json,drop_target.background,drop_target.background,#0c0c0cE3,
+zed,zed/tokencat.json,drop_target.border,drop_target.border,#dd0000,
+zed,zed/tokencat.json,editor.active_line.background,editor.active_line.background,#1f1f1f,
+zed,zed/tokencat.json,editor.active_line_number,editor.active_line_number,#f2f4f8,
+zed,zed/tokencat.json,editor.active_wrap_guide,editor.active_wrap_guide,#252525E3,
+zed,zed/tokencat.json,editor.background,editor.background,#161616,
+zed,zed/tokencat.json,editor.debugger_active_line.background,editor.debugger_active_line.background,#3ddbd936,
+zed,zed/tokencat.json,editor.document_highlight.bracket_background,editor.document_highlight.bracket_background,#2a2a2aE3,
+zed,zed/tokencat.json,editor.foreground,editor.foreground,#f2f4f8,
+zed,zed/tokencat.json,editor.gutter.background,editor.gutter.background,#161616,
+zed,zed/tokencat.json,editor.hover_line_number,editor.hover_line_number,#3ddbd9,
+zed,zed/tokencat.json,editor.indent_guide,editor.indent_guide,#282828,
+zed,zed/tokencat.json,editor.indent_guide_active,editor.indent_guide_active,#525253,
+zed,zed/tokencat.json,editor.line_number,editor.line_number,#797a7e,
+zed,zed/tokencat.json,editor.wrap_guide,editor.wrap_guide,#25252557,
+zed,zed/tokencat.json,element.active,element.active,#2a2a2a,
+zed,zed/tokencat.json,element.background,element.background,#282828,
+zed,zed/tokencat.json,element.disabled,element.disabled,#6e6f70,
+zed,zed/tokencat.json,element.hover,element.hover,#282828,
+zed,zed/tokencat.json,element.selected,element.selected,#2a2a2a,
+zed,zed/tokencat.json,element.selection_background,element.selection_background,#2a2a2a,
+zed,zed/tokencat.json,elevated_surface.background,elevated_surface.background,#282828,
+zed,zed/tokencat.json,error,error,#ee5396,
+zed,zed/tokencat.json,error.background,error.background,#361f29,
+zed,zed/tokencat.json,error.border,error.border,#ee5396,
+zed,zed/tokencat.json,ghost_element.active,ghost_element.active,#2a2a2a,
+zed,zed/tokencat.json,ghost_element.hover,ghost_element.hover,#282828,
+zed,zed/tokencat.json,ghost_element.selected,ghost_element.selected,#2a2a2a,
+zed,zed/tokencat.json,hidden,hidden,#7b7c7e,
+zed,zed/tokencat.json,hint,hint,#3ddbd9,
+zed,zed/tokencat.json,hint.background,hint.background,#1c3433,
+zed,zed/tokencat.json,hint.border,hint.border,#3ddbd9,
+zed,zed/tokencat.json,ignored,ignored,#6e6f70,
+zed,zed/tokencat.json,info,info,#78a9ff,
+zed,zed/tokencat.json,info.background,info.background,#252c39,
+zed,zed/tokencat.json,info.border,info.border,#78a9ff,
+zed,zed/tokencat.json,link_text.hover,link_text.hover,#78a9ff,
+zed,zed/tokencat.json,minimap.thumb.active_background,minimap.thumb.active_background,#3ddbd957,
+zed,zed/tokencat.json,minimap.thumb.background,minimap.thumb.background,#2a2a2a8C,
+zed,zed/tokencat.json,minimap.thumb.hover_background,minimap.thumb.hover_background,#525253E3,
+zed,zed/tokencat.json,modified,modified,#08bdba,
+zed,zed/tokencat.json,panel.background,panel.background,#161616,
+zed,zed/tokencat.json,panel.focused_border,panel.focused_border,#525253E3,
+zed,zed/tokencat.json,panel.overlay_background,panel.overlay_background,#282828,
+zed,zed/tokencat.json,players,players.0.background,#25be6a8C,
+zed,zed/tokencat.json,players,players.0.cursor,#25be6a,
+zed,zed/tokencat.json,players,players.0.selection,#25be6a36,
+zed,zed/tokencat.json,players,players.1.background,#33b1ff8C,
+zed,zed/tokencat.json,players,players.1.cursor,#33b1ff,
+zed,zed/tokencat.json,players,players.1.selection,#33b1ff36,
+zed,zed/tokencat.json,players,players.2.background,#78a9ff8C,
+zed,zed/tokencat.json,players,players.2.cursor,#78a9ff,
+zed,zed/tokencat.json,players,players.2.selection,#78a9ff36,
+zed,zed/tokencat.json,players,players.3.background,#3ddbd98C,
+zed,zed/tokencat.json,players,players.3.cursor,#3ddbd9,
+zed,zed/tokencat.json,players,players.3.selection,#3ddbd936,
+zed,zed/tokencat.json,players,players.4.background,#08bdba8C,
+zed,zed/tokencat.json,players,players.4.cursor,#08bdba,
+zed,zed/tokencat.json,players,players.4.selection,#08bdba36,
+zed,zed/tokencat.json,players,players.5.background,#ff7eb68C,
+zed,zed/tokencat.json,players,players.5.cursor,#ff7eb6,
+zed,zed/tokencat.json,players,players.5.selection,#ff7eb636,
+zed,zed/tokencat.json,players,players.6.background,#be95ff8C,
+zed,zed/tokencat.json,players,players.6.cursor,#be95ff,
+zed,zed/tokencat.json,players,players.6.selection,#be95ff36,
+zed,zed/tokencat.json,players,players.7.background,#ee53968C,
+zed,zed/tokencat.json,players,players.7.cursor,#ee5396,
+zed,zed/tokencat.json,players,players.7.selection,#ee539636,
+zed,zed/tokencat.json,predictive,predictive,#7b7c7e,
+zed,zed/tokencat.json,renamed,renamed,#78a9ff,
+zed,zed/tokencat.json,scrollbar.thumb.active_background,scrollbar.thumb.active_background,#3ddbd98C,
+zed,zed/tokencat.json,scrollbar.thumb.background,scrollbar.thumb.background,#2a2a2a8C,
+zed,zed/tokencat.json,scrollbar.thumb.hover_background,scrollbar.thumb.hover_background,#525253E3,
+zed,zed/tokencat.json,scrollbar.track.background,scrollbar.track.background,#2a2a2a36,
+zed,zed/tokencat.json,search.active_match_background,search.active_match_background,#525253,
+zed,zed/tokencat.json,search.match_background,search.match_background,#2a2a2a,
+zed,zed/tokencat.json,status_bar.background,status_bar.background,#0d0d0d,
+zed,zed/tokencat.json,success,success,#25be6a,
+zed,zed/tokencat.json,success.background,success.background,#182f23,
+zed,zed/tokencat.json,success.border,success.border,#25be6a,
+zed,zed/tokencat.json,surface.background,surface.background,#161616,
+zed,zed/tokencat.json,syntax,syntax.attribute.builtin.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.attribute.color,#78a9ff,
+zed,zed/tokencat.json,syntax,syntax.boolean.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.comment.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.comment.doc.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.constant.builtin.color,#3ddbd9,
+zed,zed/tokencat.json,syntax,syntax.constant.color,#3ddbd9,
+zed,zed/tokencat.json,syntax,syntax.constructor.color,#33b1ff,
+zed,zed/tokencat.json,syntax,syntax.embedded.color,#f2f4f8,
+zed,zed/tokencat.json,syntax,syntax.emphasis.color,#ee5396,
+zed,zed/tokencat.json,syntax,syntax.emphasis.strong.color,#ee5396,
+zed,zed/tokencat.json,syntax,syntax.function.builtin.color,#ee5396,
+zed,zed/tokencat.json,syntax,syntax.function.color,#33b1ff,
+zed,zed/tokencat.json,syntax,syntax.function.decorator.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.function.kwargs.color,#33b1ff,
+zed,zed/tokencat.json,syntax,syntax.function.method.constructor.color,#33b1ff,
+zed,zed/tokencat.json,syntax,syntax.function.special.color,#ee5396,
+zed,zed/tokencat.json,syntax,syntax.keyword.color,#be95ff,
+zed,zed/tokencat.json,syntax,syntax.keyword.directive.color,#8cb6ff,
+zed,zed/tokencat.json,syntax,syntax.keyword.import.color,#ff91c1,
+zed,zed/tokencat.json,syntax,syntax.keyword.operator.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.keyword.operator.regex.color,#8cb6ff,
+zed,zed/tokencat.json,syntax,syntax.label.regex.color,#2dc7c4,
+zed,zed/tokencat.json,syntax,syntax.link_text.color,#8cb6ff,
+zed,zed/tokencat.json,syntax,syntax.link_uri.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.namespace.color,#78a9ff,
+zed,zed/tokencat.json,syntax,syntax.number.color,#3ddbd9,
+zed,zed/tokencat.json,syntax,syntax.operator.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.preproc.color,#ff91c1,
+zed,zed/tokencat.json,syntax,syntax.property.color,#78a9ff,
+zed,zed/tokencat.json,syntax,syntax.punctuation.bracket.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.punctuation.bracket.jsx.color,#52bdff,
+zed,zed/tokencat.json,syntax,syntax.punctuation.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.punctuation.embedded.markup.color,#be95ff,
+zed,zed/tokencat.json,syntax,syntax.punctuation.list_marker.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.punctuation.markup.color,#be95ff,
+zed,zed/tokencat.json,syntax,syntax.punctuation.special.color,#97999b,
+zed,zed/tokencat.json,syntax,syntax.selector.color,#08bdba,
+zed,zed/tokencat.json,syntax,syntax.selector.pseudo.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.strikethrough.markup.color,#52bdff,
+zed,zed/tokencat.json,syntax,syntax.string.color,#25be6a,
+zed,zed/tokencat.json,syntax,syntax.string.escape.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.string.regex.color,#2dc7c4,
+zed,zed/tokencat.json,syntax,syntax.string.special.color,#52bdff,
+zed,zed/tokencat.json,syntax,syntax.tag.color,#be95ff,
+zed,zed/tokencat.json,syntax,syntax.tag.component.jsx.color,#8cb6ff,
+zed,zed/tokencat.json,syntax,syntax.tag.doctype.color,#5ae0df,
+zed,zed/tokencat.json,syntax,syntax.text.literal.markup.color,#52bdff,
+zed,zed/tokencat.json,syntax,syntax.title.color,#8cb6ff,
+zed,zed/tokencat.json,syntax,syntax.type.class.call.color,#33b1ff,
+zed,zed/tokencat.json,syntax,syntax.type.class.inheritance.color,#33b1ff,
+zed,zed/tokencat.json,syntax,syntax.type.color,#78a9ff,
+zed,zed/tokencat.json,syntax,syntax.variable.color,#f2f4f8,
+zed,zed/tokencat.json,syntax,syntax.variable.parameter.color,#f2f4f8,
+zed,zed/tokencat.json,syntax,syntax.variable.special.color,#f2f4f8,
+zed,zed/tokencat.json,tab.active_background,tab.active_background,#161616,
+zed,zed/tokencat.json,tab.inactive_background,tab.inactive_background,#0d0d0d,
+zed,zed/tokencat.json,tab_bar.background,tab_bar.background,#0d0d0d,
+zed,zed/tokencat.json,terminal.ansi.black,terminal.ansi.black,#282828,
+zed,zed/tokencat.json,terminal.ansi.blue,terminal.ansi.blue,#78a9ff,
+zed,zed/tokencat.json,terminal.ansi.bright_black,terminal.ansi.bright_black,#484848,
+zed,zed/tokencat.json,terminal.ansi.bright_blue,terminal.ansi.bright_blue,#8cb6ff,
+zed,zed/tokencat.json,terminal.ansi.bright_cyan,terminal.ansi.bright_cyan,#52bdff,
+zed,zed/tokencat.json,terminal.ansi.bright_green,terminal.ansi.bright_green,#46c880,
+zed,zed/tokencat.json,terminal.ansi.bright_magenta,terminal.ansi.bright_magenta,#c8a5ff,
+zed,zed/tokencat.json,terminal.ansi.bright_red,terminal.ansi.bright_red,#f16da6,
+zed,zed/tokencat.json,terminal.ansi.bright_white,terminal.ansi.bright_white,#e4e4e5,
+zed,zed/tokencat.json,terminal.ansi.bright_yellow,terminal.ansi.bright_yellow,#2dc7c4,
+zed,zed/tokencat.json,terminal.ansi.cyan,terminal.ansi.cyan,#33b1ff,
+zed,zed/tokencat.json,terminal.ansi.dim_black,terminal.ansi.dim_black,#484848,
+zed,zed/tokencat.json,terminal.ansi.dim_blue,terminal.ansi.dim_blue,#78a9ff,
+zed,zed/tokencat.json,terminal.ansi.dim_cyan,terminal.ansi.dim_cyan,#33b1ff,
+zed,zed/tokencat.json,terminal.ansi.dim_green,terminal.ansi.dim_green,#25be6a,
+zed,zed/tokencat.json,terminal.ansi.dim_magenta,terminal.ansi.dim_magenta,#be95ff,
+zed,zed/tokencat.json,terminal.ansi.dim_red,terminal.ansi.dim_red,#ee5396,
+zed,zed/tokencat.json,terminal.ansi.dim_white,terminal.ansi.dim_white,#dfdfe0,
+zed,zed/tokencat.json,terminal.ansi.dim_yellow,terminal.ansi.dim_yellow,#08bdba,
+zed,zed/tokencat.json,terminal.ansi.green,terminal.ansi.green,#25be6a,
+zed,zed/tokencat.json,terminal.ansi.magenta,terminal.ansi.magenta,#be95ff,
+zed,zed/tokencat.json,terminal.ansi.red,terminal.ansi.red,#ee5396,
+zed,zed/tokencat.json,terminal.ansi.white,terminal.ansi.white,#dfdfe0,
+zed,zed/tokencat.json,terminal.ansi.yellow,terminal.ansi.yellow,#08bdba,
+zed,zed/tokencat.json,terminal.background,terminal.background,#161616,
+zed,zed/tokencat.json,terminal.bright_foreground,terminal.bright_foreground,#dfdfe0,
+zed,zed/tokencat.json,terminal.dim_foreground,terminal.dim_foreground,#97999b,
+zed,zed/tokencat.json,terminal.foreground,terminal.foreground,#f2f4f8,
+zed,zed/tokencat.json,text,text,#f2f4f8,
+zed,zed/tokencat.json,text.accent,text.accent,#78a9ff,
+zed,zed/tokencat.json,text.disabled,text.disabled,#97999b,
+zed,zed/tokencat.json,text.muted,text.muted,#dfdfe0,
+zed,zed/tokencat.json,text.placeholder,text.placeholder,#97999b,
+zed,zed/tokencat.json,title_bar.background,title_bar.background,#0d0d0d,
+zed,zed/tokencat.json,toolbar.background,toolbar.background,#0d0d0d,
+zed,zed/tokencat.json,version_control.added,version_control.added,#25be6a,
+zed,zed/tokencat.json,version_control.conflict,version_control.conflict,#ff9e64,
+zed,zed/tokencat.json,version_control.conflict_marker.ours,version_control.conflict_marker.ours,#c8a5ff36,
+zed,zed/tokencat.json,version_control.conflict_marker.theirs,version_control.conflict_marker.theirs,#52bdff36,
+zed,zed/tokencat.json,version_control.deleted,version_control.deleted,#ee5396,
+zed,zed/tokencat.json,version_control.ignored,version_control.ignored,#97999b,
+zed,zed/tokencat.json,version_control.modified,version_control.modified,#08bdba,
+zed,zed/tokencat.json,version_control.renamed,version_control.renamed,#78a9ff,
+zed,zed/tokencat.json,vim.helix_normal.background,vim.helix_normal.background,#33425c,
+zed,zed/tokencat.json,vim.helix_normal.foreground,vim.helix_normal.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.helix_select.background,vim.helix_select.background,#6a568b,
+zed,zed/tokencat.json,vim.helix_select.foreground,vim.helix_select.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.insert.background,vim.insert.background,#1e6a40,
+zed,zed/tokencat.json,vim.insert.foreground,vim.insert.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.normal.background,vim.normal.background,#33425c,
+zed,zed/tokencat.json,vim.normal.foreground,vim.normal.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.replace.background,vim.replace.background,#823556,
+zed,zed/tokencat.json,vim.replace.foreground,vim.replace.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.visual.background,vim.visual.background,#6a568b,
+zed,zed/tokencat.json,vim.visual.foreground,vim.visual.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.visual_block.background,vim.visual_block.background,#6a568b,
+zed,zed/tokencat.json,vim.visual_block.foreground,vim.visual_block.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.visual_line.background,vim.visual_line.background,#6a568b,
+zed,zed/tokencat.json,vim.visual_line.foreground,vim.visual_line.foreground,#f2f4f8,
+zed,zed/tokencat.json,vim.yank.background,vim.yank.background,#dfdfe0,
+zed,zed/tokencat.json,warning,warning,#ff9e64,
+zed,zed/tokencat.json,warning.background,warning.background,#2f2939,
+zed,zed/tokencat.json,warning.border,warning.border,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_error,exit_code_error.background,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_error,exit_code_error.base,#ee5396,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_error,exit_code_error.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_error,exit_code_error.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_error,exit_code_error.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_error,exit_code_error.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_success,exit_code_success.background,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_success,exit_code_success.base,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_success,exit_code_success.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_success,exit_code_success.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_success,exit_code_success.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.exit_code_success,exit_code_success.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_highlight,frame_highlight.background,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_highlight,frame_highlight.base,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_highlight,frame_highlight.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_highlight,frame_highlight.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_highlight,frame_highlight.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_highlight,frame_highlight.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_selected,frame_selected.background,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_selected,frame_selected.base,#78a9ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_selected,frame_selected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_selected,frame_selected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_selected,frame_selected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.frame_selected,frame_selected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_selected,list_selected.background,#2a2a2a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_selected,list_selected.base,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_selected,list_selected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_selected,list_selected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_selected,list_selected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_selected,list_selected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_unselected,list_unselected.background,#282828,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_unselected,list_unselected.base,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_unselected,list_unselected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_unselected,list_unselected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_unselected,list_unselected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.list_unselected,list_unselected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_1,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_10,#33b1ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_2,#78a9ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_3,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_4,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_5,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_6,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_7,#ee5396,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_8,#08bdba,
+zellij,zellij/tokencat.kdl,zellij:tokencat.multiplayer_user_colors,multiplayer_user_colors.player_9,#97999b,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_selected,ribbon_selected.background,#78a9ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_selected,ribbon_selected.base,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_selected,ribbon_selected.emphasis_0,#0d0d0d,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_selected,ribbon_selected.emphasis_1,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_selected,ribbon_selected.emphasis_2,#0d0d0d,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_selected,ribbon_selected.emphasis_3,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_unselected,ribbon_unselected.background,#282828,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_unselected,ribbon_unselected.base,#dfdfe0,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_unselected,ribbon_unselected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_unselected,ribbon_unselected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_unselected,ribbon_unselected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.ribbon_unselected,ribbon_unselected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_selected,table_cell_selected.background,#2a2a2a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_selected,table_cell_selected.base,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_selected,table_cell_selected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_selected,table_cell_selected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_selected,table_cell_selected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_selected,table_cell_selected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_unselected,table_cell_unselected.background,#282828,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_unselected,table_cell_unselected.base,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_unselected,table_cell_unselected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_unselected,table_cell_unselected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_unselected,table_cell_unselected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_cell_unselected,table_cell_unselected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_title,table_title.background,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_title,table_title.base,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_title,table_title.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_title,table_title.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_title,table_title.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.table_title,table_title.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_selected,text_selected.background,#2a2a2a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_selected,text_selected.base,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_selected,text_selected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_selected,text_selected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_selected,text_selected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_selected,text_selected.emphasis_3,#be95ff,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_unselected,text_unselected.background,#161616,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_unselected,text_unselected.base,#f2f4f8,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_unselected,text_unselected.emphasis_0,#ff9e64,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_unselected,text_unselected.emphasis_1,#3ddbd9,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_unselected,text_unselected.emphasis_2,#25be6a,
+zellij,zellij/tokencat.kdl,zellij:tokencat.text_unselected,text_unselected.emphasis_3,#be95ff,

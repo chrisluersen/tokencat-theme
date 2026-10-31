@@ -1,0 +1,42 @@
+name: carbonfox
+label: Carbonfox
+description: "Eden carbonfox — matches WezTerm + zellij + nvim + Hermes CLI. Palette from EdenEast/nightfox.nvim lua/nightfox/palette/carbonfox.lua."
+
+palette:
+  background: { hex: "#161616", alpha: 1 }
+  midground: { hex: "#78a9ff", alpha: 1 }
+  foreground: { hex: "#f2f4f8", alpha: 0.0 }
+  warmGlow: "rgba(120, 169, 255, 0.12)"
+  noiseOpacity: 0.5
+
+typography:
+  fontSans: "\"Inter\", ui-sans-serif, system-ui, sans-serif"
+  fontMono: "\"JetBrains Mono\", ui-monospace, \"Cascadia Mono\", Menlo, monospace"
+  baseSize: "14px"
+  lineHeight: "1.6"
+  letterSpacing: "0"
+
+layout:
+  radius: "0.375rem"
+  density: "comfortable"
+
+colorOverrides:
+  card: "#1a1a1a"
+  cardForeground: "#f2f4f8"
+  popover: "#1a1a1a"
+  popoverForeground: "#f2f4f8"
+  primary: "#78a9ff"
+  primaryForeground: "#161616"
+  secondary: "#262626"
+  secondaryForeground: "#dfdfe0"
+  muted: "#262626"
+  mutedForeground: "#7f8489"
+  accent: "#33b1ff"
+  accentForeground: "#161616"
+  destructive: "#ee5396"
+  destructiveForeground: "#161616"
+  success: "#25be6a"
+  warning: "#ff9e64"
+  border: "#393939"
+  input: "#393939"
+  ring: "#78a9ff"

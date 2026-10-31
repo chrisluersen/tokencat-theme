@@ -104,6 +104,7 @@ JSON_FILES = (
     "vscode/carbonfox.vscode-theme.json",
     "vscode/vscode-color-customizations.json",
     "vscode/package.json",
+    "zed/tokencat.json",
 )
 
 
@@ -146,6 +147,7 @@ def _distributable_files(root: Path) -> list[Path]:
         "ascii-art",
         "fonts",
         "vscode",
+        "zed",
         "windows-terminal",
         "wezterm",
         "zellij",
@@ -167,8 +169,11 @@ def check_palette_shape(data):
     hermes = mappings.get("hermes")
     if not isinstance(hermes, dict):
         raise ValueError("mappings.hermes must be an object")
-    if not all(isinstance(v, str) and re.fullmatch(r"#[0-9a-fA-F]{6}", v) for v in base.values()):
-        raise ValueError("base tokens must be six-digit hex strings")
+    if not all(
+        isinstance(v, str) and re.fullmatch(r"#[0-9a-fA-F]{6}(?:[0-9a-fA-F]{2})?", v)
+        for v in base.values()
+    ):
+        raise ValueError("base tokens must be six- or eight-digit hex strings")
     if not all(isinstance(v, str) for v in hermes.values()):
         raise ValueError("Hermes mappings must reference named tokens")
     return data
@@ -238,13 +243,14 @@ def _validate_hermesfox(root: Path, current: dict[str, Any]) -> list[str]:
         themes = manifest["contributes"].get("themes")
         if not isinstance(themes, list) or not all(isinstance(item, dict) for item in themes):
             raise ValueError("themes must be an array of objects")
-        fox = [item for item in themes if item.get("label") == "Hermesfox"]
-        if len(fox) != 1 or fox[0] != {
-            "label": "Hermesfox",
+        if len(themes) != 1 or themes[0] != {
+            "label": "Tokencat",
             "uiTheme": "vs-dark",
-            "path": "./carbonfox.vscode-theme.json",
+            "path": "./tokencat.vscode-theme.json",
         }:
-            violations.append("vscode/package.json: Hermesfox must select original dark theme")
+            violations.append("vscode/package.json: Tokencat must be the only selectable theme")
+        if (root / "vscode/carbonfox.vscode-theme.json").is_file() is False:
+            violations.append("vscode/package.json: legacy Carbonfox payload must be retained")
     except (OSError, ValueError) as exc:
         violations.append(f"vscode/package.json: invalid manifest ({exc})")
     return violations

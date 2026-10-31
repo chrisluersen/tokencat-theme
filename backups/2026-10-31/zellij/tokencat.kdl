@@ -1,0 +1,122 @@
+// Declarative modern role theme; target schema: Zellij v0.45.1.
+// Native parsing/rendering is separate from the repository subset validator.
+themes {
+    tokencat {
+        text_unselected {
+            base 242 244 248
+            background 22 22 22
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        text_selected {
+            base 242 244 248
+            background 42 42 42
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        ribbon_selected {
+            base 22 22 22
+            background 120 169 255
+            emphasis_0 13 13 13
+            emphasis_1 22 22 22
+            emphasis_2 13 13 13
+            emphasis_3 22 22 22
+        }
+        ribbon_unselected {
+            base 223 223 224
+            background 40 40 40
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        table_title {
+            base 61 219 217
+            background 22 22 22
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        table_cell_selected {
+            base 242 244 248
+            background 42 42 42
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        table_cell_unselected {
+            base 242 244 248
+            background 40 40 40
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        list_selected {
+            base 242 244 248
+            background 42 42 42
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        list_unselected {
+            base 242 244 248
+            background 40 40 40
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        frame_selected {
+            base 120 169 255
+            background 22 22 22
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        frame_highlight {
+            base 255 158 100
+            background 22 22 22
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        exit_code_success {
+            base 37 190 106
+            background 22 22 22
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        exit_code_error {
+            base 238 83 150
+            background 22 22 22
+            emphasis_0 255 158 100
+            emphasis_1 61 219 217
+            emphasis_2 37 190 106
+            emphasis_3 190 149 255
+        }
+        multiplayer_user_colors {
+            player_1 190 149 255
+            player_2 120 169 255
+            player_3 37 190 106
+            player_4 255 158 100
+            player_5 61 219 217
+            player_6 242 244 248
+            player_7 238 83 150
+            player_8 8 189 186
+            player_9 151 153 155
+            player_10 51 177 255
+        }
+    }
+}

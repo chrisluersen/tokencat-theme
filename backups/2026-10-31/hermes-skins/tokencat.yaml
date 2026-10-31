@@ -1,0 +1,95 @@
+name: tokencat
+description: Tokencat - a Carbonfox-derived dark theme with explicit readability overrides
+
+# Carbonfox palette (EdenEast/nightfox carbonfox.lua):
+#   bg #161616  bg0 #0d0d0d  sel0 #2a2a2a  sel1 #525253  fg #f2f4f8  fg2 #dfdfe0
+#   comment #7f8489  blue #78a9ff  cyan #33b1ff  teal #3ddbd9  green #25be6a
+#   purple #be95ff  red #ee5396   (+ #ff9e64 warm warn: carbonfox has no orange)
+#
+# Colour roles (one job per hue, so blue stops meaning everything):
+#   blue   = Hermes chrome: panel frame, section headers, response frame, session
+#   cyan   = labels/keys          teal = tool calls (the cat's feet colour)
+#   purple = reasoning, dimmed 70% toward bg so it never outshines the answer
+#   gray   = passive chrome: input rule, borders, separators
+# Surfaces follow nvim: status line on bg0, popup on sel0, label selection sel1.
+# Selected metadata keeps sel0 so its cyan foreground meets normal-text AA.
+# Syntax + diff follow nightfox's spec (string green, keyword magenta, number
+# "orange"=teal; diff rows are 15% hue blends over bg), so code in Hermes looks
+# like code in nvim.
+colors:
+  ui_primary: "#f2f4f8"
+  ui_text: "#f2f4f8"
+  ui_border: "#525253"
+  background: "#161616"              # App/base surface (bg1)
+  banner_border: "#78a9ff"           # Panel/overlay frame (blue)
+  banner_title: "#f2f4f8"            # Titles (fg)
+  banner_accent: "#78a9ff"           # Section headers (blue)
+  banner_dim: "#97999b"
+  banner_text: "#f2f4f8"             # Body text (fg)
+  ui_accent: "#78a9ff"               # General accent (blue)
+  ui_label: "#33b1ff"                # Labels/keys (cyan)
+  ui_ok: "#25be6a"                   # Success (green)
+  ui_error: "#ee5396"                # Error (red)
+  ui_warn: "#ff9e64"                 # Warning (warm orange)
+  ui_tool: "#3ddbd9"                 # Tool-call markers (teal, distinct from blue/cyan)
+  ui_thinking: "#a184d0"
+  shell_dollar: "#25be6a"            # `$` shell marker (else inherits default skin)
+  diff_added: "#182f23"              # Diff added-row bg (green 15% over bg)
+  diff_removed: "#361f29"            # Diff removed-row bg (red 15% over bg)
+  diff_added_word: "#25be6a"         # Diff added word fg (green)
+  diff_removed_word: "#ee5396"       # Diff removed word fg (red)
+  syntax_string: "#25be6a"           # Strings (nightfox: green)
+  syntax_number: "#3ddbd9"           # Numbers (nightfox: orange.base = teal)
+  syntax_keyword: "#be95ff"          # Keywords (nightfox: magenta)
+  syntax_comment: "#97999b"
+  prompt: "#78a9ff"                  # Prompt symbol (blue; typed text keeps terminal fg)
+  input_rule: "#525253"              # Input rule (sel1 gray - passive chrome)
+  response_border: "#78a9ff"         # Response frame (blue)
+  status_bar_bg: "#0d0d0d"           # Status bar (bg0, like nvim statusline)
+  status_bar_text: "#dfdfe0"         # Status text (fg2)
+  status_bar_strong: "#f2f4f8"       # Status highlight (fg)
+  status_bar_dim: "#97999b"
+  status_bar_good: "#25be6a"         # Context OK (green)
+  status_bar_warn: "#ff9e64"         # Context warning (orange)
+  status_bar_bad: "#ee5396"          # Context high (red)
+  status_bar_critical: "#ff5f5f"     # Context critical (hot red)
+  session_label: "#78a9ff"           # Session label (blue)
+  session_border: "#97999b"
+  voice_status_bg: "#0d0d0d"         # Voice status (matches status bar)
+  selection_bg: "#2a2a2a"            # Mouse selection (sel0, like nvim Visual)
+  completion_menu_bg: "#2a2a2a"      # Popup (sel0, like nvim Pmenu)
+  completion_menu_current_bg: "#525253"   # Popup selection (sel1, like PmenuSel)
+  completion_menu_meta_bg: "#2a2a2a"      # Popup meta column
+  completion_menu_meta_current_bg: "#2a2a2a"  # Popup meta selection; cyan text AA
+
+# Branding — keep agent identity, tune nothing for theme.
+branding:
+  agent_name: "Hermes Agent"
+
+# Intentionally blank: a single space suppresses the built-in HERMES AGENT
+# fallback while keeping the Hermesfox logo artwork archived, not embedded.
+banner_logo: " "
+
+# banner_hero is a top-level skin key; it replaces the caduceus in CLI + TUI.
+# Art: "token-cat" by Hayley Jane Wakenshaw (Flump), 29x11, initials replaced
+# by the $TOKENS label (decorative; Hermes does not substitute it). See NOTICE.md.
+# Active colouring: one OKLab stop per row, violet -> teal, with a lightness
+# ramp so it reads as shading rather than banding.
+# Two-tone variant (cat purple->pink, box blue->teal) is ready in
+# ascii-art/token-cat-two-tone.rich.txt. It renders in the classic CLI but the
+# stock TUI splits multi-colour rows into separate lines until upstream fixes
+# parseRichMarkup (NousResearch/hermes-agent#129481 / #46773); swap it in then.
+# Rich gotcha: a row ending in a backslash must end `\ [/]` (space before the
+# tag), or `\[` is read as an escaped bracket and a literal `[/]` leaks.
+banner_hero: |
+  [#ab7bf0]  ,-.       _,---._ __  / \ [/]
+  [#9e88fd] /  )    .-'       `./ /   \ [/]
+  [#9095ff](  (   ,'            `/    /|[/]
+  [#80a2ff] \  `-"             \'\   / |[/]
+  [#6fafff]  `.              ,  \ \ /  |[/]
+  [#5dbbff]   /`.          ,'-`----Y   |[/]
+  [#4cc7ff]  (            ;        |   '[/]
+  [#3ed1ff]  |  ,-.    ,-'         |  /[/]
+  [#3bdbfb]  |  | (   |  $TOKENS   | /[/]
+  [#45e3f2]  )  |  \  `.___________|/[/]
+  [#57eae8]  `--'   `--'[/]

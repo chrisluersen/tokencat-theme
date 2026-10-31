@@ -24,3 +24,10 @@ htmlcov/
 # Private planning/evidence and local lint cache
 .hermes/
 .ruff_cache/
+
+# Personal application config must never be committed here (public repo).
+# Theme artefacts belong in backups/; the user's own settings do not.
+backups/**/settings.json
+backups/**/config.kdl
+backups/**/wezterm.lua
+backups/**/.vsixmanifest.local

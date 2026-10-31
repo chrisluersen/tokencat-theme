@@ -1,0 +1,96 @@
+{
+  "note": "Theme artefacts only. Personal application config (VS Code, Windows Terminal, Zed and Zellij settings, wezterm.lua) was deliberately EXCLUDED and is not committed.",
+  "excluded_personal_config": [
+    "vscode-user-settings/settings.json",
+    "windows-terminal/settings.json",
+    "zed/settings.json",
+    "zellij/config.kdl",
+    "wezterm/wezterm.lua"
+  ],
+  "files": [
+    {
+      "surface": "hermes-skins",
+      "backup": "backups/2026-10-31/hermes-skins/carbonfox.yaml",
+      "bytes": 5408,
+      "sha256": "c13f01310eab6a06d620f812bbcc48b507bee83855b4621a733c569f1998c84b"
+    },
+    {
+      "surface": "hermes-skins",
+      "backup": "backups/2026-10-31/hermes-skins/dashboard-themes__carbonfox.yaml",
+      "bytes": 1139,
+      "sha256": "2313faa790ecbc1719ac12c6bb85f37a7736c161688b563f1382e66ac0af445c"
+    },
+    {
+      "surface": "hermes-skins",
+      "backup": "backups/2026-10-31/hermes-skins/dashboard-themes__tokencat.yaml",
+      "bytes": 1152,
+      "sha256": "b4927e6d31ef222cb2188ea6372cb6162388d79108ed9c86cf3d6731099c883d"
+    },
+    {
+      "surface": "hermes-skins",
+      "backup": "backups/2026-10-31/hermes-skins/hermesfox.yaml",
+      "bytes": 5352,
+      "sha256": "bbf114c4989d5125802e141e1fef3837f7dbc93477bedf8315510de38bbd6f7a"
+    },
+    {
+      "surface": "hermes-skins",
+      "backup": "backups/2026-10-31/hermes-skins/tokencat.yaml",
+      "bytes": 5313,
+      "sha256": "e581bed771fff3606aed148f15f307c1281b6c5b2ccf6810a31e3dd503dd639c"
+    },
+    {
+      "surface": "vscode-installed",
+      "backup": "backups/2026-10-31/vscode-installed/.vsixmanifest",
+      "bytes": 1634,
+      "sha256": "de32ee2ac1f6b3be920aeb776ec18c6e912fe4ea6b8e17da43dadd89ca8b4aec"
+    },
+    {
+      "surface": "vscode-installed",
+      "backup": "backups/2026-10-31/vscode-installed/carbonfox.vscode-theme.json",
+      "bytes": 3085,
+      "sha256": "5d7672b4732170bff19f40d09ae49cb2be14ebed33496033d51ded145beb3d4a"
+    },
+    {
+      "surface": "vscode-installed",
+      "backup": "backups/2026-10-31/vscode-installed/package.json",
+      "bytes": 787,
+      "sha256": "80d8792b39b58c43dee74b269111e465d781089c75554b6a61020f17e040c9d1"
+    },
+    {
+      "surface": "vscode-installed",
+      "backup": "backups/2026-10-31/vscode-installed/tokencat-color-customizations.json",
+      "bytes": 4010,
+      "sha256": "ad8c7cd4390db6ed5dc8e0479b887bffafe4859b79863c2eeae9ae556cbf15a9"
+    },
+    {
+      "surface": "vscode-installed",
+      "backup": "backups/2026-10-31/vscode-installed/tokencat.vscode-theme.json",
+      "bytes": 5026,
+      "sha256": "9caa05fbaa7d17d9f51d6720fb328ba3351222191b3c6e4098b38d027f383f63"
+    },
+    {
+      "surface": "vscode-installed",
+      "backup": "backups/2026-10-31/vscode-installed/vscode-color-customizations.json",
+      "bytes": 2515,
+      "sha256": "3ae0d7df5f5844f33fe069654407888f17dbb4786de767f6388b2b1d4159f78e"
+    },
+    {
+      "surface": "wezterm",
+      "backup": "backups/2026-10-31/wezterm/tokencat.toml",
+      "bytes": 961,
+      "sha256": "f69d8f4d9f65225afac3c040de8965684377da32b1d71d884180b95661906afc"
+    },
+    {
+      "surface": "zed",
+      "backup": "backups/2026-10-31/zed/tokencat.json",
+      "bytes": 11932,
+      "sha256": "bd920e45da1e543b3048d73809638a4d11b214084a4f1e6a6be9b6fb339dffe3"
+    },
+    {
+      "surface": "zellij",
+      "backup": "backups/2026-10-31/zellij/tokencat.kdl",
+      "bytes": 3591,
+      "sha256": "fe522b754cf556534975fbb9ad8c6d05950f6858bed2ef8b8fc0fcfb4fd73cbb"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+name: tokencat
+label: Tokencat
+description: Tokencat - a Carbonfox-derived dashboard palette with explicit readability roles.
+palette:
+  background:
+    hex: "#161616"
+    alpha: 1.0
+  midground:
+    hex: "#f2f4f8"
+    alpha: 1.0
+  foreground:
+    hex: "#78a9ff"
+    alpha: 0.0
+  warmGlow: "rgba(0, 0, 0, 0)"
+  noiseOpacity: 0.0
+typography:
+  fontSans: 'system-ui, -apple-system, "Segoe UI", sans-serif'
+  fontMono: '"Cascadia Mono", "SFMono-Regular", Consolas, monospace'
+  fontDisplay: 'system-ui, -apple-system, "Segoe UI", sans-serif'
+  baseSize: "15px"
+  lineHeight: "1.5"
+  letterSpacing: "0"
+layout:
+  radius: "0.5rem"
+  density: comfortable
+layoutVariant: standard
+colorOverrides:
+  card: "#282828"
+  cardForeground: "#f2f4f8"
+  popover: "#282828"
+  popoverForeground: "#f2f4f8"
+  primary: "#78a9ff"
+  primaryForeground: "#161616"
+  secondary: "#282828"
+  secondaryForeground: "#f2f4f8"
+  muted: "#282828"
+  mutedForeground: "#97999b"
+  accent: "#2a2a2a"
+  accentForeground: "#f2f4f8"
+  destructive: "#ee5396"
+  destructiveForeground: "#161616"
+  success: "#25be6a"
+  warning: "#ff9e64"
+  border: "#525253"
+  input: "#525253"
+  ring: "#78a9ff"

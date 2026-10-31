@@ -36,13 +36,15 @@ class HermesfoxVariantTests(unittest.TestCase):
         legacy.pop("name")
         self.assertEqual(fox, legacy)
 
-    def test_vscode_selector_uses_original_theme_without_duplicate_payload(self):
+    def test_vscode_ships_only_tokencat_while_hermesfox_keeps_other_surfaces(self):
+        """The VS Code picker collapsed to Tokencat; Hermesfox survives elsewhere."""
         manifest = json.loads((ROOT / "vscode/package.json").read_text(encoding="utf-8"))
-        themes = manifest["contributes"]["themes"]
-        matches = [item for item in themes if item["label"] == "Hermesfox"]
-        self.assertEqual(len(matches), 1, "Hermesfox must be separately selectable")
-        self.assertEqual(matches[0]["path"], "./carbonfox.vscode-theme.json")
-        self.assertEqual(matches[0]["uiTheme"], "vs-dark")
+        labels = [item["label"] for item in manifest["contributes"]["themes"]]
+        self.assertEqual(labels, ["Tokencat"])
+        self.assertNotIn("Hermesfox", labels)
+        # the variant is still shipped on the surfaces that never used the alias
+        self.assertTrue((ROOT / "hermes/skins/hermesfox.yaml").is_file())
+        self.assertTrue((ROOT / "windows-terminal/hermesfox.scheme.json").is_file())
 
     @unittest.skipUnless(
         os.environ.get("TOKENCAT_HERMES_SOURCE"), "native Hermes source not supplied"

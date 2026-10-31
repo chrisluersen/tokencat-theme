@@ -1,29 +1,23 @@
 {
-  "name": "tokencat-theme",
-  "displayName": "Tokencat",
-  "description": "Tokencat upgrade, Hermesfox original colors and preserved Carbonfox legacy selector.",
-  "version": "0.0.1",
-  "publisher": "chrisluersen",
-  "license": "UNLICENSED",
-  "engines": {"vscode": "^1.136.2"},
-  "categories": ["Themes"],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Tokencat",
-        "uiTheme": "vs-dark",
-        "path": "./tokencat.vscode-theme.json"
-      },
-      {
-        "label": "Hermesfox",
-        "uiTheme": "vs-dark",
-        "path": "./carbonfox.vscode-theme.json"
-      },
-      {
-        "label": "Carbonfox (Legacy)",
-        "uiTheme": "vs-dark",
-        "path": "./carbonfox.vscode-theme.json"
-      }
-    ]
-  }
+	"name": "tokencat-theme",
+	"displayName": "Tokencat",
+	"description": "Tokencat \u2014 single canonical dark theme for Hermes, VS Code, Zed and companion terminals.",
+	"version": "0.0.1",
+	"publisher": "chrisluersen",
+	"license": "UNLICENSED",
+	"engines": {
+		"vscode": "^1.136.2"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tokencat",
+				"uiTheme": "vs-dark",
+				"path": "./tokencat.vscode-theme.json"
+			}
+		]
+	}
 }
