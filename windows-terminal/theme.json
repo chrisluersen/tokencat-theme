@@ -1,0 +1,15 @@
+{
+    "name": "Tokencat",
+    "window": {
+        "applicationTheme": "dark"
+    },
+    "tab": {
+        "background": "#0d0d0d",
+        "unfocusedBackground": "#0d0d0d",
+        "showCloseButton": "hover"
+    },
+    "tabRow": {
+        "background": "#0d0d0d",
+        "unfocusedBackground": "#0d0d0d"
+    }
+}
