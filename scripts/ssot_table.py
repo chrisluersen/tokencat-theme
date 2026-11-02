@@ -31,6 +31,17 @@ except ImportError:  # pragma: no cover - documented dev dependency
 HEX = re.compile(r"#[0-9a-fA-F]{6}(?:[0-9a-fA-F]{2})?\Z")
 FIELDS = ("surface", "file", "category", "key", "value", "base_token")
 
+# Typography is part of the SSOT too (the ASK names "keys, labels, colors, font").
+# Only real typography settings — not Zed per-token `font_style`/`font_weight`
+# attributes, which are syntax rules and belong with the token colours.
+FONT_KEY = re.compile(
+    r"(?:^|\.)(?:[A-Za-z_]*font[A-Za-z_]*(?:family|size|features|ligatures)?|fonts|"
+    r"baseSize|lineHeight|letterSpacing)$",
+    re.I,
+)
+FONT_SKIP = re.compile(r"syntax\.", re.I)  # Zed token attributes are not typography
+FONT_NOTE = "font"  # written into the category column so rows are filterable
+
 
 # ---------------------------------------------------------------- collectors
 
@@ -66,6 +77,36 @@ def _rows_from_mapping(surface, rel, data, skip=()):
                 "category": category,
                 "key": dotted,
                 "value": leaf,
+                "base_token": "",
+            }
+        )
+    return rows
+
+
+def rows_fonts(surface, rel, data):
+    """Typography leaves (font families, sizes, spacing) for one surface.
+
+    Colours are collected by `_rows_from_mapping` on a hex regex, which drops
+    every font value. The owner's ASK names font explicitly, so typography is
+    captured here as its own category instead of being silently lost.
+    """
+    rows = []
+    for pointer, leaf in _walk(data):
+        if not isinstance(leaf, (str, int, float)):
+            continue
+        dotted = pointer.strip("/").replace("/", ".")
+        tail = dotted.rsplit(".", 1)[-1]
+        if FONT_SKIP.search(dotted):
+            continue
+        if not FONT_KEY.match(tail) and not FONT_KEY.match(dotted):
+            continue
+        rows.append(
+            {
+                "surface": surface,
+                "file": rel,
+                "category": FONT_NOTE,
+                "key": dotted,
+                "value": str(leaf),
                 "base_token": "",
             }
         )
@@ -158,7 +199,9 @@ def collect():
     for rel in ("vscode/tokencat.vscode-theme.json", "vscode/carbonfox.vscode-theme.json"):
         p = ROOT / rel
         if p.is_file():
-            rows += _rows_from_mapping("vscode", rel, json.loads(p.read_text(encoding="utf-8")))
+            data = json.loads(p.read_text(encoding="utf-8"))
+            rows += _rows_from_mapping("vscode", rel, data)
+            rows += rows_fonts("vscode", rel, data)
 
     # Zed
     p = ROOT / "zed" / "tokencat.json"
@@ -166,13 +209,14 @@ def collect():
         zdata = json.loads(p.read_text(encoding="utf-8"))
         for theme in zdata.get("themes", []):
             rows += _rows_from_mapping("zed", "zed/tokencat.json", theme.get("style", {}))
+        rows += rows_fonts("zed", "zed/tokencat.json", zdata)
 
     # WezTerm
     p = ROOT / "wezterm" / "tokencat.toml"
     if p.is_file():
-        rows += _rows_from_mapping(
-            "wezterm", "wezterm/tokencat.toml", tomllib.loads(p.read_text(encoding="utf-8"))
-        )
+        data = tomllib.loads(p.read_text(encoding="utf-8"))
+        rows += _rows_from_mapping("wezterm", "wezterm/tokencat.toml", data)
+        rows += rows_fonts("wezterm", "wezterm/tokencat.toml", data)
 
     # Windows Terminal
     for rel in (
@@ -181,9 +225,9 @@ def collect():
     ):
         p = ROOT / rel
         if p.is_file():
-            rows += _rows_from_mapping(
-                "windows-terminal", rel, json.loads(p.read_text(encoding="utf-8"))
-            )
+            data = json.loads(p.read_text(encoding="utf-8"))
+            rows += _rows_from_mapping("windows-terminal", rel, data)
+            rows += rows_fonts("windows-terminal", rel, data)
 
     # Zellij
     p = ROOT / "zellij" / "tokencat.kdl"
@@ -200,9 +244,16 @@ def collect():
             p = ROOT / rel
             if p.is_file():
                 surface = "hermes-dashboard" if "dashboard" in rel else "hermes-skin"
-                rows += _rows_from_mapping(
-                    surface, rel, yaml.safe_load(p.read_text(encoding="utf-8"))
-                )
+                data = yaml.safe_load(p.read_text(encoding="utf-8"))
+                rows += _rows_from_mapping(surface, rel, data)
+                rows += rows_fonts(surface, rel, data)
+
+    # Raised editor font settings (live app config, kept as a repo snapshot).
+    p = ROOT / "docs" / "fonts.json"
+    if p.is_file():
+        fdata = json.loads(p.read_text(encoding="utf-8"))
+        for surface, cfg in fdata.get("surfaces", {}).items():
+            rows += rows_fonts(surface, "docs/fonts.json", cfg)
 
     return rows
 
@@ -254,6 +305,23 @@ def write_md(rows, dest: Path):
         for token in sorted(base):
             used = ", ".join(sorted(consumers.get(token, []))) or "—"
             out.append(f"| `{token}` | `{base[token]}` | {used} |")
+        out.append("")
+
+    # Typography, kept separate: it is not a colour, and the ASK names it.
+    fonts = [r for r in rows if r["category"] == "font"]
+    if fonts:
+        out.append("## Typography (font family, size, spacing)")
+        out.append("")
+        out.append(
+            "Colours are matched on a hex pattern, so font values would be dropped by that "
+            "pass; they are collected separately here. `docs/fonts.json` carries the live "
+            "editor settings that the shipped theme files do not."
+        )
+        out.append("")
+        out.append("| Surface | Key | Value | File |")
+        out.append("|---|---|---|---|")
+        for r in sorted(fonts, key=lambda r: (r["surface"], r["key"], r["file"])):
+            out.append(f"| {r['surface']} | `{r['key']}` | `{r['value']}` | `{r['file']}` |")
         out.append("")
 
     out.append("## Per-surface key inventory")

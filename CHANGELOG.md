@@ -1,6 +1,27 @@
 # Changelog
 
 
+## 2026-11-02 — SSOT now carries typography; WezTerm drift recorded
+
+- **Fixed: the SSOT silently dropped every font key.** The generator matches colour leaves on a
+  hex pattern, so font values never matched and 0 font rows were emitted while VS Code, Zed,
+  WezTerm and the Hermes dashboard all declared fonts. Fonts are now collected by a separate
+  `rows_fonts()` pass — **13 font rows across 4 surfaces**, plus a `## Typography` section in the
+  generated page. `tests/test_ssot_table.py` (7 tests) fails if that coverage disappears again.
+- **Added `docs/fonts.json`** — the live editor font settings (VS Code, Zed, WezTerm) that the
+  shipped theme files do not carry, so they are visible in the SSOT instead of living only in each
+  app's config.
+- **Added `docs/ssot-decision.md`** — why the SSOT is a generated CSV *and* a generated page rather
+  than one hand-typed table, the per-surface coverage counts, and the surface-parity table.
+- **Recorded one open drift, unresolved on purpose.** The installed WezTerm scheme was edited
+  2026-11-02 (active tab bar blue → near-black) and does not match the repo. Absorbing it verbatim
+  fails 16 tests, because `export_contract.py` requires every shipped colour to resolve to a
+  declared palette token and the palette declares the active tab as `blue`. The edit is preserved
+  at `backups/2026-11-02-drift/`; the repo file is unchanged from `HEAD`. This needs an owner
+  decision — it is a design change, not a backup.
+- Zed's per-token `font_style` / `font_weight` attributes are deliberately **not** collected as
+  typography; they are syntax rules and belong with the token colours.
+
 ## 2026-10-31 — Hermesfox retired
 
 - **Removed the Hermesfox variant from every surface**, by owner decision. The Hermes skin,

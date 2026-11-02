@@ -1,0 +1,19 @@
+{
+  "_comment": "Typography for every Tokencat surface. Captured from the live app configs on 2026-11-02 and from the shipped theme files, because the theme files themselves do not carry a font for every surface. Regenerate the SSOT with scripts/ssot_table.py; edit this file when a live font setting changes.",
+  "_source_of_truth": "Live app config: VS Code User/settings.json, Zed settings.json, ~/.config/wezterm/wezterm.lua, hermes/dashboard-themes/tokencat.yaml. Font family on this workstation: Hack Nerd Font Mono (installed under %LOCALAPPDATA%\\Microsoft\\Windows\\Fonts).",
+  "surfaces": {
+    "vscode": {
+      "editor.fontFamily": "'Hack Nerd Font Mono', Consolas, 'Courier New', monospace",
+      "editor.fontSize": 16
+    },
+    "zed": {
+      "buffer_font_family": "Hack Nerd Font Mono",
+      "agent_buffer_font_family": "Hack Nerd Font Mono",
+      "ui_font_family": ".ZedSans"
+    },
+    "wezterm": {
+      "font_family": "Hack Nerd Font Mono",
+      "font_size": 10.0
+    }
+  }
+}
