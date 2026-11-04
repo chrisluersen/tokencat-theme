@@ -25,9 +25,7 @@ class SsotTypographyTests(unittest.TestCase):
         self.assertTrue(CSV.is_file(), "run scripts/ssot_table.py")
         with CSV.open(encoding="utf-8", newline="") as fh:
             header = next(csv.reader(fh))
-        self.assertEqual(
-            header, ["surface", "file", "category", "key", "value", "base_token"]
-        )
+        self.assertEqual(header, ["surface", "file", "category", "key", "value", "base_token"])
 
     def test_ssot_carries_font_rows(self):
         font = [r for r in _rows() if r["category"] == "font"]
@@ -41,11 +39,7 @@ class SsotTypographyTests(unittest.TestCase):
             self.assertIn(expected, surfaces, f"{expected} font settings missing from SSOT")
 
     def test_no_duplicate_font_rows(self):
-        keys = [
-            (r["surface"], r["file"], r["key"])
-            for r in _rows()
-            if r["category"] == "font"
-        ]
+        keys = [(r["surface"], r["file"], r["key"]) for r in _rows() if r["category"] == "font"]
         self.assertEqual(len(keys), len(set(keys)), "duplicate font rows in SSOT")
 
     def test_zed_syntax_attributes_are_not_mistaken_for_typography(self):
