@@ -72,7 +72,8 @@ banner_logo: " "
 
 # banner_hero is a top-level skin key; it replaces the caduceus in CLI + TUI.
 # Art: "token-cat" by Hayley Jane Wakenshaw (Flump), 29x11, initials replaced
-# by the $TOKENS label (decorative; Hermes does not substitute it). See NOTICE.md.
+# by "Lucky with Agency", centered within each row's open box space.
+# Source: ascii-art/lucky-cat-29x11.txt. See NOTICE.md.
 # Active colouring: one OKLab stop per row, violet -> teal, with a lightness
 # ramp so it reads as shading rather than banding.
 # Two-tone variant (cat purple->pink, box blue->teal) is ready in
@@ -88,8 +89,8 @@ banner_hero: |
   [#80a2ff] \  `-"             \'\   / |[/]
   [#6fafff]  `.              ,  \ \ /  |[/]
   [#5dbbff]   /`.          ,'-`----Y   |[/]
-  [#4cc7ff]  (            ;        |   '[/]
-  [#3ed1ff]  |  ,-.    ,-'         |  /[/]
-  [#3bdbfb]  |  | (   |  $TOKENS   | /[/]
+  [#4cc7ff]  (            ;  Lucky |   '[/]
+  [#3ed1ff]  |  ,-.    ,-'  with   |  /[/]
+  [#3bdbfb]  |  | (   |   Agency   | /[/]
   [#45e3f2]  )  |  \  `.___________|/[/]
   [#57eae8]  `--'   `--'[/]

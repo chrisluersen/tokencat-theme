@@ -131,7 +131,7 @@ def _plain_hero(hero: str) -> list[str]:
 
 
 def _source_hero(root: Path) -> list[str] | None:
-    source_path = root / "ascii-art/token-cat-29x11.txt"
+    source_path = root / "ascii-art/lucky-cat-29x11.txt"
     if not source_path.exists():
         return None
     source = source_path.read_text(encoding="utf-8").splitlines()
@@ -188,6 +188,7 @@ REQUIRED_FILES = (
     "palettes/tokencat.json",
     "hermes/skins/tokencat.yaml",
     "ascii-art/token-cat-29x11.txt",
+    "ascii-art/lucky-cat-29x11.txt",
     "ascii-art/token-cat-two-tone.rich.txt",
     "windows-terminal/tokencat.scheme.json",
     "windows-terminal/theme.json",

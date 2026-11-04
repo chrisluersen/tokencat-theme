@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 — Lucky with Agency banner
+
+- Tokencat now displays `Lucky` / `with` / `Agency`, centered within each row's available box space. The cat, box outline, 29×11 geometry and existing row colors are preserved.
+- Added a separate canonical `ascii-art/lucky-cat-29x11.txt`, renderer/centering/outline regression checks and updated attribution. Original `$TOKENS` artwork, legacy Carbonfox, gated two-tone art and other theme exports remain unchanged.
+
 
 ## 2026-11-02 — SSOT now carries typography; WezTerm drift recorded
 

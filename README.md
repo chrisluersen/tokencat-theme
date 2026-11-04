@@ -147,7 +147,7 @@ Copy the file into the explicitly selected Zellij configuration directory's `the
 
 ## Artwork, optional fonts and scope
 
-Both skins share the unchanged 29×11 token-cat from [ascii-art](ascii-art/README.md). The owner reports verbal permission to use/modify Hayley Jane Wakenshaw's artwork; see [NOTICE](NOTICE.md). An Internet archive is not a blanket redistribution license.
+Both skins retain the 29×11 cat outline from [ascii-art](ascii-art/README.md). Tokencat labels the box **Lucky / with / Agency**, centered within each row's available space; legacy Carbonfox retains `$TOKENS`. The owner reports verbal permission to use/modify Hayley Jane Wakenshaw's artwork; see [NOTICE](NOTICE.md). An Internet archive is not a blanket redistribution license.
 
 `fonts/install-hack-nerd-font.sh` remains optional and unchanged. It targets Nerd Fonts `v3.5.1`, verifies its pinned digest before extraction, and installs only Mono TTFs. Do not run it merely to use the palette. If registry registration fails, copied fonts remain and require deliberate recovery. The test suite uses temporary supplied ZIPs and a fail-closed fake-`reg` guard; it never invokes real registration or downloads fonts.
 
