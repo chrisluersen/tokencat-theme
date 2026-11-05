@@ -55,19 +55,47 @@ class SsotTypographyTests(unittest.TestCase):
         for surface in data["surfaces"]:
             self.assertTrue(surface, "empty surface name in docs/fonts.json")
 
+    def test_csv_generator_uses_lf_line_endings(self):
+        import tempfile
+
+        from scripts.ssot_table import write_csv
+
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "ssot.csv"
+            write_csv([], path)
+            self.assertEqual(path.read_bytes(), b"surface,file,category,key,value,base_token\n")
+        self.assertIn("*.csv text eol=lf", (ROOT / ".gitattributes").read_text())
+
+    def test_markdown_generator_uses_lf_and_one_final_newline(self):
+        import tempfile
+
+        from scripts.ssot_table import write_md
+
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "ssot.md"
+            write_md([], path)
+            data = path.read_bytes()
+            self.assertNotIn(b"\r", data)
+            self.assertTrue(data.endswith(b"\n"))
+            self.assertFalse(data.endswith(b"\n\n"))
+
     def test_regenerator_is_deterministic(self):
-        """Re-running the generator must not change the CSV (SSOT is generated, not typed)."""
+        """Re-running the generator must preserve both generated files byte for byte."""
         import subprocess
         import sys
 
-        before = CSV.read_bytes()
+        paths = (CSV, ROOT / "docs" / "ssot-tokencat.md")
+        before = {path: path.read_bytes() for path in paths}
         subprocess.run(
             [sys.executable, "scripts/ssot_table.py"],
             cwd=ROOT,
             check=True,
             capture_output=True,
         )
-        self.assertEqual(before, CSV.read_bytes(), "SSOT CSV drifted on regeneration")
+        for path in paths:
+            self.assertEqual(
+                before[path], path.read_bytes(), f"{path.name} drifted on regeneration"
+            )
 
 
 if __name__ == "__main__":

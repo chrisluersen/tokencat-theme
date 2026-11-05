@@ -1495,4 +1495,3 @@ Colours are matched on a hex pattern, so font values would be dropped by that pa
 | `text_unselected.emphasis_1` | `#3ddbd9` | — | `zellij/tokencat.kdl` |
 | `text_unselected.emphasis_2` | `#25be6a` | — | `zellij/tokencat.kdl` |
 | `text_unselected.emphasis_3` | `#be95ff` | — | `zellij/tokencat.kdl` |
-

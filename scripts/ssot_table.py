@@ -264,7 +264,7 @@ def collect():
 def write_csv(rows, dest: Path):
     dest.parent.mkdir(parents=True, exist_ok=True)
     with dest.open("w", encoding="utf-8", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=FIELDS)
+        w = csv.DictWriter(fh, fieldnames=FIELDS, lineterminator="\n")
         w.writeheader()
         for r in sorted(rows, key=lambda r: (r["surface"], r["file"], r["category"], r["key"])):
             w.writerow(r)
@@ -337,7 +337,7 @@ def write_md(rows, dest: Path):
             )
         out.append("")
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text("\n".join(out) + "\n", encoding="utf-8")
+    dest.write_text("\n".join(out).rstrip("\n") + "\n", encoding="utf-8", newline="\n")
 
 
 def main() -> int:
