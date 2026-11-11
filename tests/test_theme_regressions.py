@@ -88,6 +88,18 @@ class ThemeRegressionTests(unittest.TestCase):
             validate_repository(self.root),
         )
 
+    def test_invalid_utf8_source_art_returns_violation(self):
+        self.assertEqual(validate_repository(self.root), [])
+        (self.root / "ascii-art/lucky-cat-29x11.txt").write_bytes(b"\xff")
+        try:
+            violations = validate_repository(self.root)
+        except UnicodeDecodeError as exc:
+            self.fail(f"unreadable source art escaped validation: {exc}")
+        self.assertTrue(
+            any("ascii-art/lucky-cat-29x11.txt: invalid source art" in item for item in violations),
+            violations,
+        )
+
     def test_missing_json_export_is_rejected(self):
         (self.root / "windows-terminal/tokencat.scheme.json").unlink()
         self.assertIn(

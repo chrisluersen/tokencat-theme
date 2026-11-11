@@ -250,7 +250,11 @@ def validate_repository(root: Path) -> list[str]:
     if isinstance(skin, dict) and skin.get("banner_logo") != " ":
         violations.append("banner_logo must be exactly one space")
     if isinstance(skin, dict) and "banner_hero" in skin:
-        expected = _source_hero(root)
+        try:
+            expected = _source_hero(root)
+        except (OSError, ValueError) as exc:
+            violations.append(f"ascii-art/lucky-cat-29x11.txt: invalid source art ({exc})")
+            expected = None
         if expected is not None and _plain_hero(str(skin["banner_hero"])) != expected:
             violations.append("banner_hero does not match token-cat source")
     palette_base = palette.get("base", {}) if isinstance(palette, dict) else {}
